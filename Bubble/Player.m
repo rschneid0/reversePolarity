@@ -15,12 +15,15 @@
 {
   if (self == [super initWithImageNamed:name]) {
     self.velocity = CGPointMake(0.0, 0.0);
+    self.startZone=TRUE;
   }
   return self;
 }
 
 - (void)update:(NSTimeInterval)delta
 {
+    NSLog(@"%f", 100*delta);
+    
   CGPoint gravity;
   if(self.gravity){
     NSLog(@"negative gravity");
@@ -31,6 +34,10 @@
     gravity = CGPointMake(0.0, +900.0);
   }
   
+    if(self.startZone==TRUE){
+        gravity=CGPointMake(0, 0);
+    }
+    
   CGPoint gravityStep = CGPointMultiplyScalar(gravity, delta);
   //1
   CGPoint forwardMove = CGPointMake(800.0, 0.0);
@@ -54,13 +61,24 @@
     self.velocity = CGPointAdd(self.velocity, forwardMoveStep);
   }
   //4
-  CGPoint minMovement = CGPointMake(119.0,-250.0);
-  CGPoint maxMovement = CGPointMake(120.0, 250.0);
+  CGPoint minMovement = CGPointMake(200.0,-250.0);
+  CGPoint maxMovement = CGPointMake(200.0, 250.0);
   //CGPoint maxMovement = CGPointMake(120.0, 250.0);
   
-  
+    
   self.velocity = CGPointMake(Clamp(self.velocity.x, minMovement.x, maxMovement.x), Clamp(self.velocity.y, minMovement.y, maxMovement.y));
-  
+    //self.velocity=CGPointMake:(self.velocity.x*2.0, self.velocity.y*2.0);
+                   
+    self.velocity = CGPointMake(self.velocity.x*2, self.velocity.y*2);
+    
+    
+    if(self.turbo)
+    {
+        [self setVelocity:CGPointMake(self.velocity.x*1.5, self.velocity.y)];
+    }
+    //else{]
+    //}
+    
   CGPoint velocityStep = CGPointMultiplyScalar(self.velocity, delta);
   
   self.desiredPosition = CGPointAdd(self.position, velocityStep);
