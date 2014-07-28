@@ -28,7 +28,7 @@
   if (self = [super initWithSize:size]) {
     [[SKTAudio sharedInstance] playBackgroundMusic:@"level1.mp3"];
     
-      self.backgroundColor = [SKColor colorWithRed:.4 green:.4 blue:.4 alpha:1.0];
+      
     
     //self.map = [JSTileMap mapNamed:@"level1x.tmx"];
     self.map = [JSTileMap mapNamed:@"Base.tmx"];
