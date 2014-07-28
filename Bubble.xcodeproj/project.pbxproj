@@ -89,6 +89,8 @@
 		A9BA252918E26329005EC455 /* timeslow.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9BA252818E26329005EC455 /* timeslow.wav */; };
 		A9BF9F691985DC1300B810D8 /* tileSet.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BF9F671985DC1300B810D8 /* tileSet.png */; };
 		A9BF9F6A1985DC1300B810D8 /* tileSet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BF9F681985DC1300B810D8 /* tileSet@2x.png */; };
+		A9BF9F6D1985DDE300B810D8 /* koalio_stand.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BF9F6B1985DDE300B810D8 /* koalio_stand.png */; };
+		A9BF9F6E1985DDE300B810D8 /* koalio_stand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BF9F6C1985DDE300B810D8 /* koalio_stand@2x.png */; };
 		A9C46D1118DE299600BC8065 /* PowerUp.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C46D1018DE299600BC8065 /* PowerUp.m */; };
 		A9C46D2118DFCC6D00BC8065 /* GG.mp4.flac.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9C46D2018DFCC6D00BC8065 /* GG.mp4.flac.wav */; };
 		A9D68DE418DB57FF00299441 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D68DE318DB57FF00299441 /* AVFoundation.framework */; };
@@ -223,6 +225,8 @@
 		A9BA252818E26329005EC455 /* timeslow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = timeslow.wav; sourceTree = "<group>"; };
 		A9BF9F671985DC1300B810D8 /* tileSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tileSet.png; sourceTree = "<group>"; };
 		A9BF9F681985DC1300B810D8 /* tileSet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileSet@2x.png"; sourceTree = "<group>"; };
+		A9BF9F6B1985DDE300B810D8 /* koalio_stand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = koalio_stand.png; sourceTree = "<group>"; };
+		A9BF9F6C1985DDE300B810D8 /* koalio_stand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "koalio_stand@2x.png"; sourceTree = "<group>"; };
 		A9C46D0F18DE299600BC8065 /* PowerUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PowerUp.h; path = ../PowerUp.h; sourceTree = "<group>"; };
 		A9C46D1018DE299600BC8065 /* PowerUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PowerUp.m; path = ../PowerUp.m; sourceTree = "<group>"; };
 		A9C46D2018DFCC6D00BC8065 /* GG.mp4.flac.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GG.mp4.flac.wav; sourceTree = "<group>"; };
@@ -450,6 +454,8 @@
 		A85CD01118DCEFD900FECC1C /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				A9BF9F6B1985DDE300B810D8 /* koalio_stand.png */,
+				A9BF9F6C1985DDE300B810D8 /* koalio_stand@2x.png */,
 				A9BA252818E26329005EC455 /* timeslow.wav */,
 				A9BA252618E25E4E005EC455 /* nuke.wav */,
 				A9A564F018DFE67F00840421 /* splash.mp3 */,
@@ -547,8 +553,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9BA252918E26329005EC455 /* timeslow.wav in Resources */,
+				A9BF9F6E1985DDE300B810D8 /* koalio_stand@2x.png in Resources */,
 				A9BA252718E25E4E005EC455 /* nuke.wav in Resources */,
 				A9BA252518E1ED97005EC455 /* radiation_icon.png in Resources */,
+				A9BF9F6D1985DDE300B810D8 /* koalio_stand.png in Resources */,
 				A9A564F118DFE67F00840421 /* splash.mp3 in Resources */,
 				A9C46D2118DFCC6D00BC8065 /* GG.mp4.flac.wav in Resources */,
 				A81680ED18DFD7F600504025 /* bubble_button.png in Resources */,
