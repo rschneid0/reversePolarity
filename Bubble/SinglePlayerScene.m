@@ -22,6 +22,7 @@
 @synthesize numLives = NUM_LIVES, isHardcore;
 
 -(id)initWithSize:(CGSize)size {
+    return nil;
     if (self = [super initWithSize:size]) {
         
         self.backgroundColor = [SKColor blackColor];

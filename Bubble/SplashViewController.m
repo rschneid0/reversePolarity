@@ -125,7 +125,7 @@
     UIImage *optionsButtonBackground = [UIImage imageNamed:@"options_button.png"];
     UIImage *gameCenterButtonBackground = [UIImage imageNamed:@"game_center_logo.png"];
     UIImage *twitterButtonBackground = [UIImage imageNamed:@"twitter_logo.png"];
-    UIImage *bubbleIconImage = [UIImage imageNamed:@"bubble_icon_title.png"];
+    UIImage *bubbleIconImage = [UIImage imageNamed:@"Icon.jpg"];
     
     float width = self.view.bounds.size.width;
     float height = self.view.bounds.size.height;
@@ -150,7 +150,7 @@
                                          0.5 * height + 2.2*buttonHeight, buttonWidth, buttonHeight)];
     [twoPlayerButton setBackgroundImage:twoPlayerButtonBackground forState:UIControlStateNormal];
     [twoPlayerButton addTarget:self action:@selector(multiGameView) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:twoPlayerButton];
+    //[self.view addSubview:twoPlayerButton];
 
     optionsButton =  [UIButton buttonWithType:UIButtonTypeSystem] ;
     [optionsButton setFrame:CGRectMake(0.5 * (width - buttonWidth),
