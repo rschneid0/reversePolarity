@@ -185,7 +185,7 @@
 }
 
 -(void)checkForWin {
-  if (self.player.position.x > 3130.0) {
+  if (self.player.position.x > 8130.0) {
     [self gameOver:1];
   }
 }
