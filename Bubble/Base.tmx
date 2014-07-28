@@ -10,12 +10,12 @@
  </layer>
  <layer name="walls" width="512" height="20">
   <data encoding="base64" compression="zlib">
-   eJzt3EmKwmAUhdFAFh+17HVHJvbdkuoKNSp0EFD4izoHvtm7OEwGwaauqkEaplH6SuM0SdM0S/O0SMu0SuvU2NnZ2dnZ2RW163O7SW3q0jbt0j4d0jGd0jld0jXd0t3Ozs7Ozs6uuF2fWwAAAAAAAACAVx7fHP4OACjHs2f1O/rUbwAA/4t3AAAAAAAAAAAAAAAAAAAAAAAAAAD+oqauqkEaptHPf+uN0yRN0yzN0yIt0yqtazs7Ozs7O7vSdn1uN6lNXdqmXdqnQzqmUzqnS7qmW7rb2dnZ2dnZFbfrc/sNrXiOaA==
+   eJzty7dtAwEABMEHWDyNaEV1JHonlqRtgdkHM8Bmd9PJMMxqXov6qmWtal2b2tauvmtfPzX18/Pz8/PzG9Xvk+1vHepYpzrXpa51q3s96lmv+qu3n5+fn5+f3+h+n2wBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGGYToZhVvNa1Fcta1Xr2tS2dvVd+/qZ+Pn5+fn5+Y3t98n2tw51rFOd61LXutW9HvWsV/3V28/Pz8/Pz290v0+2/4AVc8g=
   </data>
  </layer>
  <layer name="hazards" width="512" height="20">
   <data encoding="base64" compression="zlib">
-   eJzt2MEJgFAMRMH8ctW61DZNFYqbGcg9t4VXBQAAAPBv26ra+4719ScAwFvO3v2r77b/AAAAEEv/B4B59H8AAADIp/8DwDz6PwAAAOTT/wFgHv0fAAAA8un/ADCP/g8AAAAAAAAAAECiB6ABEA8=
+   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADg3wCgAAAB
   </data>
  </layer>
 </map>
