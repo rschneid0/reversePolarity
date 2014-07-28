@@ -54,7 +54,7 @@
     self.velocity = CGPointAdd(self.velocity, forwardMoveStep);
   }
   //4
-  CGPoint minMovement = CGPointMake(0.0,-250.0);
+  CGPoint minMovement = CGPointMake(119.0,-250.0);
   CGPoint maxMovement = CGPointMake(120.0, 250.0);
   //CGPoint maxMovement = CGPointMake(120.0, 250.0);
   

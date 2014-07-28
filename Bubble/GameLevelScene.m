@@ -222,6 +222,8 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
+    self.player.gravity=(!self.player.gravity);
+    /*
   for (UITouch *touch in touches) {
     CGPoint touchLocation = [touch locationInNode:self];
     if (touchLocation.x > self.size.width / 2.0) {
@@ -232,7 +234,7 @@
       NSLog(@"Touch RIghtof screen!");
       self.player.forwardMarch = YES;
     }
-  }
+  }*/
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
