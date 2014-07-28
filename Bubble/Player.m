@@ -35,7 +35,7 @@
   }
   
     if(self.startZone==TRUE){
-        gravity=CGPointMake(0, 0);
+        //gravity=CGPointMake(0, 0);
     }
     
   CGPoint gravityStep = CGPointMultiplyScalar(gravity, delta);
@@ -52,7 +52,7 @@
   
   if (self.mightAsWellJump && self.onGround) {
     self.velocity = CGPointAdd(self.velocity, jumpForce);
-    [self runAction:[SKAction playSoundFileNamed:@"jump.wav" waitForCompletion:NO]];
+    //[self runAction:[SKAction playSoundFileNamed:@"jump.wav" waitForCompletion:NO]];
   } else if (!self.mightAsWellJump && self.velocity.y > jumpCutoff) {
     self.velocity = CGPointMake(self.velocity.x, jumpCutoff);
   }
@@ -67,6 +67,9 @@
   
     
   self.velocity = CGPointMake(Clamp(self.velocity.x, minMovement.x, maxMovement.x), Clamp(self.velocity.y, minMovement.y, maxMovement.y));
+    if(self.startZone){
+    //self.velocity = CGPointMake(Clamp(self.velocity.x, minMovement.x, 50), Clamp(self.velocity.y, minMovement.y, 50));
+    }
     //self.velocity=CGPointMake:(self.velocity.x*2.0, self.velocity.y*2.0);
                    
     self.velocity = CGPointMake(self.velocity.x*2, self.velocity.y*2);

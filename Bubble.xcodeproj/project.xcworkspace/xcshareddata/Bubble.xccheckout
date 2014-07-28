@@ -12,6 +12,8 @@
 	<dict>
 		<key>56EFB479-455A-4C59-95DA-A686660A3955</key>
 		<string>https://github.com/rschneid0/reversePolarity.git</string>
+		<key>BD6AFABF-2522-4209-A0C1-C85D8B4FCE15</key>
+		<string>ssh://github.com/rschneid0/platformer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Bubble.xcodeproj/project.xcworkspace</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>56EFB479-455A-4C59-95DA-A686660A3955</key>
 		<string>../..</string>
+		<key>BD6AFABF-2522-4209-A0C1-C85D8B4FCE15</key>
+		<string>../../../platformer</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/rschneid0/reversePolarity.git</string>
@@ -28,6 +32,14 @@
 	<string>56EFB479-455A-4C59-95DA-A686660A3955</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BD6AFABF-2522-4209-A0C1-C85D8B4FCE15</string>
+			<key>IDESourceControlWCCName</key>
+			<string>platformer</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
