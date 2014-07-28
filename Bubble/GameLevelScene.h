@@ -9,5 +9,8 @@
 #import <SpriteKit/SpriteKit.h>
 
 @interface GameLevelScene : SKScene
+{
+    UIButton *replay;
+}
 
 @end
