@@ -25,7 +25,9 @@
  * short sound effects. For when using SKActions just isn't good enough.
  */
 @interface SKTAudio : NSObject
-
+{
+    
+}
 + (instancetype)sharedInstance;
 
 - (void)playBackgroundMusic:(NSString *)filename;

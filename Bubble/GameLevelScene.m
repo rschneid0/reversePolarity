@@ -50,8 +50,9 @@
 
 - (void)update:(NSTimeInterval)currentTime
 {
-    if (self.position.x<250);
-  if (self.gameOver) return;
+    //if (self.position.x<250);
+  if (
+self.gameOver) return;
 
   NSTimeInterval delta = currentTime - self.previousUpdateTime;
 
@@ -210,7 +211,7 @@
   [self addChild:endGameLabel];
   
   //2
-  UIButton *replay = [UIButton buttonWithType:UIButtonTypeCustom];
+    replay = [UIButton buttonWithType:UIButtonTypeCustom];
   replay.tag = 321;
   UIImage *replayImage = [UIImage imageNamed:@"replay"];
   [replay setImage:replayImage forState:UIControlStateNormal];
@@ -222,6 +223,7 @@
 //3
 - (void)replay:(id)sender
 {
+    [replay removeFromSuperview];
   [[self.view viewWithTag:321] removeFromSuperview];
   [self.view presentScene:[[GameLevelScene alloc] initWithSize:self.size]];
 }
