@@ -603,7 +603,6 @@
 				ORGANIZATIONNAME = "Jeff Chen";
 				TargetAttributes = {
 					1F60B14518974B9A00232A84 = {
-						DevelopmentTeam = 5V53Z3K684;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
 								enabled = 1;
