@@ -98,6 +98,7 @@
 		C20C0E541985FD2C0058133B /* replay.png in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E531985FD2C0058133B /* replay.png */; };
 		C20C0E591985FF1A0058133B /* reversePolarity Full.png in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E581985FF1A0058133B /* reversePolarity Full.png */; };
 		C20C0E5B198601F00058133B /* Base.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E5A198601F00058133B /* Base.tmx */; };
+		C20C0E5D1986059D0058133B /* level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E5C1986059D0058133B /* level1.tmx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -238,6 +239,7 @@
 		C20C0E531985FD2C0058133B /* replay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = replay.png; path = ../../platformer/SuperKoalio/replay.png; sourceTree = "<group>"; };
 		C20C0E581985FF1A0058133B /* reversePolarity Full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reversePolarity Full.png"; sourceTree = "<group>"; };
 		C20C0E5A198601F00058133B /* Base.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Base.tmx; sourceTree = "<group>"; };
+		C20C0E5C1986059D0058133B /* level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level1.tmx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -315,6 +317,7 @@
 			isa = PBXGroup;
 			children = (
 				C20C0E581985FF1A0058133B /* reversePolarity Full.png */,
+				C20C0E5C1986059D0058133B /* level1.tmx */,
 				C20C0E5A198601F00058133B /* Base.tmx */,
 				C20C0E521985FC660058133B /* Resources */,
 				A93554E61985B71A00E77285 /* SKAction+SKTExtras.h */,
@@ -576,6 +579,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C20C0E5D1986059D0058133B /* level1.tmx in Resources */,
 				A9BA252918E26329005EC455 /* timeslow.wav in Resources */,
 				A9BF9F6E1985DDE300B810D8 /* koalio_stand@2x.png in Resources */,
 				A9BA252718E25E4E005EC455 /* nuke.wav in Resources */,
