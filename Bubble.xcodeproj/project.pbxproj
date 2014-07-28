@@ -87,6 +87,8 @@
 		A9BA252518E1ED97005EC455 /* radiation_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BA252418E1ED97005EC455 /* radiation_icon.png */; };
 		A9BA252718E25E4E005EC455 /* nuke.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9BA252618E25E4E005EC455 /* nuke.wav */; };
 		A9BA252918E26329005EC455 /* timeslow.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9BA252818E26329005EC455 /* timeslow.wav */; };
+		A9BF9F691985DC1300B810D8 /* tileSet.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BF9F671985DC1300B810D8 /* tileSet.png */; };
+		A9BF9F6A1985DC1300B810D8 /* tileSet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BF9F681985DC1300B810D8 /* tileSet@2x.png */; };
 		A9C46D1118DE299600BC8065 /* PowerUp.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C46D1018DE299600BC8065 /* PowerUp.m */; };
 		A9C46D2118DFCC6D00BC8065 /* GG.mp4.flac.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9C46D2018DFCC6D00BC8065 /* GG.mp4.flac.wav */; };
 		A9D68DE418DB57FF00299441 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D68DE318DB57FF00299441 /* AVFoundation.framework */; };
@@ -219,6 +221,8 @@
 		A9BA252418E1ED97005EC455 /* radiation_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radiation_icon.png; sourceTree = "<group>"; };
 		A9BA252618E25E4E005EC455 /* nuke.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nuke.wav; sourceTree = "<group>"; };
 		A9BA252818E26329005EC455 /* timeslow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = timeslow.wav; sourceTree = "<group>"; };
+		A9BF9F671985DC1300B810D8 /* tileSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tileSet.png; sourceTree = "<group>"; };
+		A9BF9F681985DC1300B810D8 /* tileSet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileSet@2x.png"; sourceTree = "<group>"; };
 		A9C46D0F18DE299600BC8065 /* PowerUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PowerUp.h; path = ../PowerUp.h; sourceTree = "<group>"; };
 		A9C46D1018DE299600BC8065 /* PowerUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PowerUp.m; path = ../PowerUp.m; sourceTree = "<group>"; };
 		A9C46D2018DFCC6D00BC8065 /* GG.mp4.flac.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GG.mp4.flac.wav; sourceTree = "<group>"; };
@@ -427,6 +431,8 @@
 				A816810818DFF4EA00504025 /* share_button.png */,
 				A81680E718DFD7F600504025 /* shield_icon.png */,
 				A81680E818DFD7F600504025 /* thunderbolt_icon.png */,
+				A9BF9F671985DC1300B810D8 /* tileSet.png */,
+				A9BF9F681985DC1300B810D8 /* tileSet@2x.png */,
 				A81680E918DFD7F600504025 /* twitter_logo.png */,
 			);
 			path = Images;
@@ -572,6 +578,8 @@
 				A81680EA18DFD7F600504025 /* 1p_button.png in Resources */,
 				A85CD01618DCEFD900FECC1C /* dilate1.wav in Resources */,
 				A81680FB18DFD7F600504025 /* shield_icon.png in Resources */,
+				A9BF9F6A1985DC1300B810D8 /* tileSet@2x.png in Resources */,
+				A9BF9F691985DC1300B810D8 /* tileSet.png in Resources */,
 				A816811318E1161200504025 /* normal_mode_button.png in Resources */,
 				A81680F618DFD7F600504025 /* game_center_logo.png in Resources */,
 				A85CD01918DCEFD900FECC1C /* singleplayer.mp3 in Resources */,
