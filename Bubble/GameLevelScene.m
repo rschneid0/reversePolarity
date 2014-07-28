@@ -19,6 +19,7 @@
 @property (nonatomic, assign) NSTimeInterval previousUpdateTime;
 @property (nonatomic, strong) TMXLayer *walls;
 @property (nonatomic, strong) TMXLayer *hazards;
+@property (nonatomic, strong) TMXLayer *backgrounds;
 @property (nonatomic, assign) BOOL gameOver;
 @end
 
@@ -28,11 +29,12 @@
   if (self = [super initWithSize:size]) {
     [[SKTAudio sharedInstance] playBackgroundMusic:@"level1.mp3"];
     
-      
+      self.backgroundColor = [SKColor colorWithRed:.4 green:.4 blue:.4 alpha:1.0];
     
     //self.map = [JSTileMap mapNamed:@"level1x.tmx"];
     self.map = [JSTileMap mapNamed:@"Base.tmx"];
     [self addChild:self.map];
+      self.backgrounds = [self.map layerNamed:@"backgrounds"];
     self.walls = [self.map layerNamed:@"walls"];
     self.hazards = [self.map layerNamed:@"hazards"];
     
