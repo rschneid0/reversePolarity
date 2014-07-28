@@ -27,7 +27,7 @@
 
 -(id)initWithSize:(CGSize)size {
   if (self = [super initWithSize:size]) {
-    [[SKTAudio sharedInstance] playBackgroundMusic:@"level1.mp3"];
+    //[[SKTAudio sharedInstance] playBackgroundMusic:@"level1.mp3"];
     
       self.backgroundColor = [SKColor colorWithRed:.4 green:.4 blue:.4 alpha:1.0];
     
@@ -38,7 +38,7 @@
     self.walls = [self.map layerNamed:@"walls"];
     self.hazards = [self.map layerNamed:@"hazards"];
     
-    self.player = [[Player alloc] initWithImageNamed:@"koalio_stand"];
+    self.player = [[Player alloc] initWithImageNamed:@"spaceShip(flat).png"];
     self.player.position = CGPointMake(100, 50);
     self.player.zPosition = 15;
     [self.map addChild:self.player];
@@ -50,6 +50,7 @@
 
 - (void)update:(NSTimeInterval)currentTime
 {
+    if (self.position.x<250);
   if (self.gameOver) return;
 
   NSTimeInterval delta = currentTime - self.previousUpdateTime;
@@ -83,6 +84,9 @@
 
 - (void)checkForAndResolveCollisionsForPlayer:(Player *)player forLayer:(TMXLayer *)layer
 {
+    if (player.position.x>300) {
+        player.startZone=YES;
+    }
   NSInteger indices[8] = {7, 1, 3, 5, 0, 2, 6, 8};
   player.onGround = NO;  ////Here
   for (NSUInteger i = 0; i < 8; i++) {
@@ -225,18 +229,17 @@
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     self.player.gravity=(!self.player.gravity);
-    /*
+    
   for (UITouch *touch in touches) {
     CGPoint touchLocation = [touch locationInNode:self];
     if (touchLocation.x > self.size.width / 2.0) {
       self.player.gravity=(!self.player.gravity);
-      NSLog(@"Touch Left of screen!");
-      //self.player.mightAsWellJump = YES;
+      NSLog(@"Touch Left of screen! - Change Gravity!");
     } else {
-      NSLog(@"Touch RIghtof screen!");
-      self.player.forwardMarch = YES;
-    }
-  }*/
+      NSLog(@"Touch Rightof screen. - Turbo!");
+        self.player.turbo=!self.player.turbo;
+        }
+  }
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
