@@ -31,13 +31,13 @@
   }
   else{
     NSLog(@"positive gravity");
-      ySpeed = 200.0;
+      ySpeed = 450.0;
   }
-    self.velocity = CGPointMake(200.0f, ySpeed);
+    self.velocity = CGPointMake(400.0f, ySpeed);
     
     if(self.turbo)
     {
-        [self setVelocity:CGPointMake(self.velocity.x, self.velocity.y*1.5)];
+        [self setVelocity:CGPointMake(self.velocity.x, self.velocity.y*3.0)];
     }
     CGPoint velocityStep = CGPointMultiplyScalar(self.velocity, delta);
   self.desiredPosition = CGPointAdd(self.position, velocityStep);
