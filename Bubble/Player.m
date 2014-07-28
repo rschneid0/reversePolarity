@@ -24,66 +24,22 @@
 {
     NSLog(@"%f", 100*delta);
     
-  CGPoint gravity;
+    float ySpeed;
   if(self.gravity){
     NSLog(@"negative gravity");
-    gravity = CGPointMake(0.0, -900.0);
+      ySpeed = -200.0;
   }
   else{
     NSLog(@"positive gravity");
-    gravity = CGPointMake(0.0, +900.0);
+      ySpeed = 200.0;
   }
-  
-    if(self.startZone==TRUE){
-        //gravity=CGPointMake(0, 0);
-    }
-    
-  CGPoint gravityStep = CGPointMultiplyScalar(gravity, delta);
-  //1
-  CGPoint forwardMove = CGPointMake(800.0, 0.0);
-  CGPoint forwardMoveStep = CGPointMultiplyScalar(forwardMove, delta);
-
-  self.velocity = CGPointAdd(self.velocity, gravityStep);
-  //2
-  self.velocity = CGPointMake(self.velocity.x * 0.9, self.velocity.y);
-  //3
-  CGPoint jumpForce = CGPointMake(0.0, 310.0);
-  float jumpCutoff = 150.0;
-  
-  if (self.mightAsWellJump && self.onGround) {
-    self.velocity = CGPointAdd(self.velocity, jumpForce);
-    //[self runAction:[SKAction playSoundFileNamed:@"jump.wav" waitForCompletion:NO]];
-  } else if (!self.mightAsWellJump && self.velocity.y > jumpCutoff) {
-    self.velocity = CGPointMake(self.velocity.x, jumpCutoff);
-  }
-  
-  if (self.forwardMarch) {
-    self.velocity = CGPointAdd(self.velocity, forwardMoveStep);
-  }
-  //4
-  CGPoint minMovement = CGPointMake(200.0,-250.0);
-  CGPoint maxMovement = CGPointMake(200.0, 250.0);
-  //CGPoint maxMovement = CGPointMake(120.0, 250.0);
-  
-    
-  self.velocity = CGPointMake(Clamp(self.velocity.x, minMovement.x, maxMovement.x), Clamp(self.velocity.y, minMovement.y, maxMovement.y));
-    if(self.startZone){
-    //self.velocity = CGPointMake(Clamp(self.velocity.x, minMovement.x, 50), Clamp(self.velocity.y, minMovement.y, 50));
-    }
-    //self.velocity=CGPointMake:(self.velocity.x*2.0, self.velocity.y*2.0);
-                   
-    self.velocity = CGPointMake(self.velocity.x*2, self.velocity.y*2);
-    
+    self.velocity = CGPointMake(200.0f, ySpeed);
     
     if(self.turbo)
     {
-        [self setVelocity:CGPointMake(self.velocity.x*1.5, self.velocity.y)];
+        [self setVelocity:CGPointMake(self.velocity.x, self.velocity.y*1.5)];
     }
-    //else{]
-    //}
-    
-  CGPoint velocityStep = CGPointMultiplyScalar(self.velocity, delta);
-  
+    CGPoint velocityStep = CGPointMultiplyScalar(self.velocity, delta);
   self.desiredPosition = CGPointAdd(self.position, velocityStep);
 }
 
