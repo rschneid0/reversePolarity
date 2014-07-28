@@ -32,7 +32,7 @@
       self.backgroundColor = [SKColor colorWithRed:.4 green:.4 blue:.4 alpha:1.0];
     
     //self.map = [JSTileMap mapNamed:@"level1x.tmx"];
-    self.map = [JSTileMap mapNamed:@"Base.tmx"];
+    self.map = [JSTileMap mapNamed:@"level1.tmx"];
     [self addChild:self.map];
       self.backgrounds = [self.map layerNamed:@"backgrounds"];
     self.walls = [self.map layerNamed:@"walls"];
