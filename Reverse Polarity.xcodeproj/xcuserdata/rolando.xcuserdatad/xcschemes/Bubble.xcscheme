@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1F60B14518974B9A00232A84"
-               BuildableName = "Bubble.app"
+               BuildableName = "Reverse Polarity.app"
                BlueprintName = "Reverse Polarity"
                ReferencedContainer = "container:Reverse Polarity.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1F60B17018974B9A00232A84"
-               BuildableName = "BubbleTests.xctest"
+               BuildableName = "Reverse PolarityTests.xctest"
                BlueprintName = "Reverse PolarityTests"
                ReferencedContainer = "container:Reverse Polarity.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F60B14518974B9A00232A84"
-            BuildableName = "Bubble.app"
+            BuildableName = "Reverse Polarity.app"
             BlueprintName = "Reverse Polarity"
             ReferencedContainer = "container:Reverse Polarity.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F60B14518974B9A00232A84"
-            BuildableName = "Bubble.app"
+            BuildableName = "Reverse Polarity.app"
             BlueprintName = "Reverse Polarity"
             ReferencedContainer = "container:Reverse Polarity.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F60B14518974B9A00232A84"
-            BuildableName = "Bubble.app"
+            BuildableName = "Reverse Polarity.app"
             BlueprintName = "Reverse Polarity"
             ReferencedContainer = "container:Reverse Polarity.xcodeproj">
          </BuildableReference>

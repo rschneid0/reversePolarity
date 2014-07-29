@@ -56,8 +56,8 @@
 #endif
     
     [self setUpUI];
-    
-    scene = [GameLevelScene sceneWithSize:CGSizeMake(self.view.frame.size.height, self.view.frame.size.width)];
+    scene = [[GameLevelScene alloc] initWithSize:CGSizeMake(self.view.frame.size.height, self.view.frame.size.width) andLevel:self.level];
+    //scene = [GameLevelScene sceneWithSize:CGSizeMake(self.view.frame.size.height, self.view.frame.size.width)];
     scene.scaleMode = SKSceneScaleModeAspectFit;
     //scene.delegate = self;
     //scene.gc = [self gc];

@@ -63,6 +63,7 @@
 
 - (IBAction)gameView {
     SinglePlayerViewController *gameView = [[SinglePlayerViewController alloc] init];
+    gameView.level=@"1";
     [player stop];
     gameView.splash = self;
     gameView.gc = _controller;
@@ -148,8 +149,8 @@
     [twoPlayerButton setFrame:CGRectMake(0.5 * (width - buttonWidth),
                                          0.5 * height + 2.2*buttonHeight, buttonWidth, buttonHeight)];
     [twoPlayerButton setBackgroundImage:twoPlayerButtonBackground forState:UIControlStateNormal];
-    [twoPlayerButton addTarget:self action:@selector(multiGameView) forControlEvents:UIControlEventTouchUpInside];
-    //[self.view addSubview:twoPlayerButton];
+    [twoPlayerButton addTarget:self action:@selector(levelSelect) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:twoPlayerButton];
 
     optionsButton =  [UIButton buttonWithType:UIButtonTypeSystem] ;
     [optionsButton setFrame:CGRectMake(0.5 * (width - buttonWidth),
@@ -225,6 +226,11 @@
 
 -(void)setVolume:(float)volume{
     player.volume = volume;
+}
+-(void)levelSelect{
+    
+    LevelSelectViewController * ls = [[LevelSelectViewController alloc] init];
+    [self.navigationController pushViewController:ls animated:YES];
 }
 /*
 -(void)startNewMultiplayerGame{

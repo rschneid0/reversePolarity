@@ -12,5 +12,6 @@
 {
     UIButton *replay;
 }
-
+- (instancetype)initWithSize:(CGSize)size andLevel:(NSString *)level;
+@property NSString* level;
 @end

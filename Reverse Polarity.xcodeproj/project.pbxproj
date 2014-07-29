@@ -99,6 +99,9 @@
 		A9BA252518E1ED97005EC455 /* radiation_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BA252418E1ED97005EC455 /* radiation_icon.png */; };
 		A9BA252718E25E4E005EC455 /* nuke.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9BA252618E25E4E005EC455 /* nuke.wav */; };
 		A9BA252918E26329005EC455 /* timeslow.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9BA252818E26329005EC455 /* timeslow.wav */; };
+		A9BC27AE198809760030CCF0 /* level7.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A9BC27AC198809760030CCF0 /* level7.tmx */; };
+		A9BC27AF198809760030CCF0 /* level8.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A9BC27AD198809760030CCF0 /* level8.tmx */; };
+		A9BC27B2198809820030CCF0 /* LevelSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BC27B1198809820030CCF0 /* LevelSelectViewController.m */; };
 		A9BF9F691985DC1300B810D8 /* tileSet.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BF9F671985DC1300B810D8 /* tileSet.png */; };
 		A9BF9F6A1985DC1300B810D8 /* tileSet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BF9F681985DC1300B810D8 /* tileSet@2x.png */; };
 		A9BF9F6D1985DDE300B810D8 /* koalio_stand.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BF9F6B1985DDE300B810D8 /* koalio_stand.png */; };
@@ -247,6 +250,10 @@
 		A9BA252418E1ED97005EC455 /* radiation_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radiation_icon.png; sourceTree = "<group>"; };
 		A9BA252618E25E4E005EC455 /* nuke.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nuke.wav; sourceTree = "<group>"; };
 		A9BA252818E26329005EC455 /* timeslow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = timeslow.wav; sourceTree = "<group>"; };
+		A9BC27AC198809760030CCF0 /* level7.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level7.tmx; sourceTree = "<group>"; };
+		A9BC27AD198809760030CCF0 /* level8.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level8.tmx; sourceTree = "<group>"; };
+		A9BC27B0198809820030CCF0 /* LevelSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelectViewController.h; sourceTree = "<group>"; };
+		A9BC27B1198809820030CCF0 /* LevelSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSelectViewController.m; sourceTree = "<group>"; };
 		A9BF9F671985DC1300B810D8 /* tileSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tileSet.png; sourceTree = "<group>"; };
 		A9BF9F681985DC1300B810D8 /* tileSet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileSet@2x.png"; sourceTree = "<group>"; };
 		A9BF9F6B1985DDE300B810D8 /* koalio_stand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = koalio_stand.png; sourceTree = "<group>"; };
@@ -393,6 +400,10 @@
 				A97A9ED618989C750017183F /* SettingsViewController.m */,
 				1F60B16318974B9A00232A84 /* SinglePlayerViewController.h */,
 				1F60B16418974B9A00232A84 /* SinglePlayerViewController.m */,
+				A9BC27B0198809820030CCF0 /* LevelSelectViewController.h */,
+				A9BC27B1198809820030CCF0 /* LevelSelectViewController.m */,
+				A9BC27AC198809760030CCF0 /* level7.tmx */,
+				A9BC27AD198809760030CCF0 /* level8.tmx */,
 				A97A9ED218988D3F0017183F /* SplashViewController.h */,
 				A97A9ED318988D3F0017183F /* SplashViewController.m */,
 				A81680FE18DFDFEB00504025 /* StalkerBubble.h */,
@@ -647,12 +658,14 @@
 				A96FD8FB1985F696005E14F7 /* bubble_ios_icon.psd in Resources */,
 				A93554DF1985B6A700E77285 /* level2.tmx in Resources */,
 				A980008819860B6500B21DD0 /* Icon.jpg in Resources */,
+				A9BC27AF198809760030CCF0 /* level8.tmx in Resources */,
 				A81680F218DFD7F600504025 /* bubble_ios_icon_120.png in Resources */,
 				A96FD8FC1985F696005E14F7 /* spaceShip(down).png in Resources */,
 				A96FD9011985F696005E14F7 /* spaceShip.psd in Resources */,
 				A816810918DFF4EA00504025 /* share_button.png in Resources */,
 				A96FD8FA1985F696005E14F7 /* bubble_icon_title.psd in Resources */,
 				A81680FA18DFD7F600504025 /* resume_button.png in Resources */,
+				A9BC27AE198809760030CCF0 /* level7.tmx in Resources */,
 				A9D21C0919874951006B9463 /* replay.png in Resources */,
 				A816811218E1161200504025 /* mode_pick_background.png in Resources */,
 				A81680FD18DFD7F600504025 /* twitter_logo.png in Resources */,
@@ -710,6 +723,7 @@
 				A816810318DFE7D500504025 /* GameOverViewController.m in Sources */,
 				A816810D18DFFFD200504025 /* iRate.m in Sources */,
 				A93554FE1985B71A00E77285 /* SKTTimingFunctions.m in Sources */,
+				A9BC27B2198809820030CCF0 /* LevelSelectViewController.m in Sources */,
 				A93554FC1985B71A00E77285 /* SKTAudio.m in Sources */,
 				A93554F71985B71A00E77285 /* SKAction+SKTExtras.m in Sources */,
 				A901663218B670A60061927A /* JCJoystick.m in Sources */,
