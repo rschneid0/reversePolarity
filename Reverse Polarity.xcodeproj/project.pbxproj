@@ -124,23 +124,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F60B14618974B9A00232A84 /* Bubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F60B14618974B9A00232A84 /* Reverse Polarity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reverse Polarity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F60B14918974B9A00232A84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1F60B14B18974B9A00232A84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1F60B14D18974B9A00232A84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1F60B14F18974B9A00232A84 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
-		1F60B15318974B9A00232A84 /* Bubble-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bubble-Info.plist"; sourceTree = "<group>"; };
+		1F60B15318974B9A00232A84 /* Reverse Polarity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Reverse Polarity-Info.plist"; sourceTree = "<group>"; };
 		1F60B15518974B9A00232A84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F60B15718974B9A00232A84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1F60B15918974B9A00232A84 /* Bubble-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bubble-Prefix.pch"; sourceTree = "<group>"; };
+		1F60B15918974B9A00232A84 /* Reverse Polarity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reverse Polarity-Prefix.pch"; sourceTree = "<group>"; };
 		1F60B15A18974B9A00232A84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F60B15B18974B9A00232A84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1F60B16318974B9A00232A84 /* SinglePlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SinglePlayerViewController.h; sourceTree = "<group>"; };
 		1F60B16418974B9A00232A84 /* SinglePlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinglePlayerViewController.m; sourceTree = "<group>"; };
 		1F60B16B18974B9A00232A84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1F60B17118974B9A00232A84 /* BubbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F60B17118974B9A00232A84 /* Reverse PolarityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reverse PolarityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F60B17218974B9A00232A84 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		1F60B17A18974B9A00232A84 /* BubbleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BubbleTests-Info.plist"; sourceTree = "<group>"; };
+		1F60B17A18974B9A00232A84 /* Reverse PolarityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Reverse PolarityTests-Info.plist"; sourceTree = "<group>"; };
 		1F60B17C18974B9A00232A84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F60B17E18974B9A00232A84 /* BubbleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleTests.m; sourceTree = "<group>"; };
 		1F60B1881897500300232A84 /* Bubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bubble.h; sourceTree = "<group>"; };
@@ -307,8 +307,8 @@
 		1F60B14718974B9A00232A84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F60B14618974B9A00232A84 /* Bubble.app */,
-				1F60B17118974B9A00232A84 /* BubbleTests.xctest */,
+				1F60B14618974B9A00232A84 /* Reverse Polarity.app */,
+				1F60B17118974B9A00232A84 /* Reverse PolarityTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -406,10 +406,10 @@
 		1F60B15218974B9A00232A84 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F60B15318974B9A00232A84 /* Bubble-Info.plist */,
+				1F60B15318974B9A00232A84 /* Reverse Polarity-Info.plist */,
 				1F60B15418974B9A00232A84 /* InfoPlist.strings */,
 				1F60B15718974B9A00232A84 /* main.m */,
-				1F60B15918974B9A00232A84 /* Bubble-Prefix.pch */,
+				1F60B15918974B9A00232A84 /* Reverse Polarity-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -426,7 +426,7 @@
 		1F60B17918974B9A00232A84 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F60B17A18974B9A00232A84 /* BubbleTests-Info.plist */,
+				1F60B17A18974B9A00232A84 /* Reverse PolarityTests-Info.plist */,
 				1F60B17B18974B9A00232A84 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -533,9 +533,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F60B14518974B9A00232A84 /* Bubble */ = {
+		1F60B14518974B9A00232A84 /* Reverse Polarity */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F60B18218974B9A00232A84 /* Build configuration list for PBXNativeTarget "Bubble" */;
+			buildConfigurationList = 1F60B18218974B9A00232A84 /* Build configuration list for PBXNativeTarget "Reverse Polarity" */;
 			buildPhases = (
 				1F60B14218974B9A00232A84 /* Sources */,
 				1F60B14318974B9A00232A84 /* Frameworks */,
@@ -545,14 +545,14 @@
 			);
 			dependencies = (
 			);
-			name = Bubble;
+			name = "Reverse Polarity";
 			productName = Bubble;
-			productReference = 1F60B14618974B9A00232A84 /* Bubble.app */;
+			productReference = 1F60B14618974B9A00232A84 /* Reverse Polarity.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1F60B17018974B9A00232A84 /* BubbleTests */ = {
+		1F60B17018974B9A00232A84 /* Reverse PolarityTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F60B18518974B9A00232A84 /* Build configuration list for PBXNativeTarget "BubbleTests" */;
+			buildConfigurationList = 1F60B18518974B9A00232A84 /* Build configuration list for PBXNativeTarget "Reverse PolarityTests" */;
 			buildPhases = (
 				1F60B16D18974B9A00232A84 /* Sources */,
 				1F60B16E18974B9A00232A84 /* Frameworks */,
@@ -563,9 +563,9 @@
 			dependencies = (
 				1F60B17718974B9A00232A84 /* PBXTargetDependency */,
 			);
-			name = BubbleTests;
+			name = "Reverse PolarityTests";
 			productName = BubbleTests;
-			productReference = 1F60B17118974B9A00232A84 /* BubbleTests.xctest */;
+			productReference = 1F60B17118974B9A00232A84 /* Reverse PolarityTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -590,7 +590,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1F60B14118974B9A00232A84 /* Build configuration list for PBXProject "Bubble" */;
+			buildConfigurationList = 1F60B14118974B9A00232A84 /* Build configuration list for PBXProject "Reverse Polarity" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -603,8 +603,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F60B14518974B9A00232A84 /* Bubble */,
-				1F60B17018974B9A00232A84 /* BubbleTests */,
+				1F60B14518974B9A00232A84 /* Reverse Polarity */,
+				1F60B17018974B9A00232A84 /* Reverse PolarityTests */,
 			);
 		};
 /* End PBXProject section */
@@ -736,7 +736,7 @@
 /* Begin PBXTargetDependency section */
 		1F60B17718974B9A00232A84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1F60B14518974B9A00232A84 /* Bubble */;
+			target = 1F60B14518974B9A00232A84 /* Reverse Polarity */;
 			targetProxy = 1F60B17618974B9A00232A84 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -841,10 +841,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Bubble/Bubble-Prefix.pch";
-				INFOPLIST_FILE = "Bubble/Bubble-Info.plist";
+				GCC_PREFIX_HEADER = "Bubble/Reverse Polarity-Prefix.pch";
+				INFOPLIST_FILE = "Bubble/Reverse Polarity-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Reverse Polarity";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -860,10 +860,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Bubble/Bubble-Prefix.pch";
-				INFOPLIST_FILE = "Bubble/Bubble-Info.plist";
+				GCC_PREFIX_HEADER = "Bubble/Reverse Polarity-Prefix.pch";
+				INFOPLIST_FILE = "Bubble/Reverse Polarity-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Reverse Polarity";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -886,8 +886,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "BubbleTests/BubbleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "BubbleTests/Reverse PolarityTests-Info.plist";
+				PRODUCT_NAME = "Reverse PolarityTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -904,8 +904,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bubble/Bubble-Prefix.pch";
-				INFOPLIST_FILE = "BubbleTests/BubbleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "BubbleTests/Reverse PolarityTests-Info.plist";
+				PRODUCT_NAME = "Reverse PolarityTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -914,7 +914,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F60B14118974B9A00232A84 /* Build configuration list for PBXProject "Bubble" */ = {
+		1F60B14118974B9A00232A84 /* Build configuration list for PBXProject "Reverse Polarity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F60B18018974B9A00232A84 /* Debug */,
@@ -923,7 +923,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F60B18218974B9A00232A84 /* Build configuration list for PBXNativeTarget "Bubble" */ = {
+		1F60B18218974B9A00232A84 /* Build configuration list for PBXNativeTarget "Reverse Polarity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F60B18318974B9A00232A84 /* Debug */,
@@ -932,7 +932,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F60B18518974B9A00232A84 /* Build configuration list for PBXNativeTarget "BubbleTests" */ = {
+		1F60B18518974B9A00232A84 /* Build configuration list for PBXNativeTarget "Reverse PolarityTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F60B18618974B9A00232A84 /* Debug */,

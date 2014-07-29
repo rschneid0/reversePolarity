@@ -7,13 +7,13 @@
 	<key>CFBundleDisplayName</key>
 	<string>Reverse Polarity</string>
 	<key>CFBundleExecutable</key>
-	<string>${EXECUTABLE_NAME}</string>
+	<string>Reverse Polarity</string>
 	<key>CFBundleIdentifier</key>
-	<string>co.sgre.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>newyork.impulse</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>${PRODUCT_NAME}</string>
+	<string>Reverse-Polarity</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
