@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1F60B14518974B9A00232A84"
                BuildableName = "Bubble.app"
-               BlueprintName = "Bubble"
-               ReferencedContainer = "container:Bubble.xcodeproj">
+               BlueprintName = "Reverse Polarity"
+               ReferencedContainer = "container:Reverse Polarity.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1F60B17018974B9A00232A84"
                BuildableName = "BubbleTests.xctest"
-               BlueprintName = "BubbleTests"
-               ReferencedContainer = "container:Bubble.xcodeproj">
+               BlueprintName = "Reverse PolarityTests"
+               ReferencedContainer = "container:Reverse Polarity.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F60B14518974B9A00232A84"
             BuildableName = "Bubble.app"
-            BlueprintName = "Bubble"
-            ReferencedContainer = "container:Bubble.xcodeproj">
+            BlueprintName = "Reverse Polarity"
+            ReferencedContainer = "container:Reverse Polarity.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F60B14518974B9A00232A84"
             BuildableName = "Bubble.app"
-            BlueprintName = "Bubble"
-            ReferencedContainer = "container:Bubble.xcodeproj">
+            BlueprintName = "Reverse Polarity"
+            ReferencedContainer = "container:Reverse Polarity.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F60B14518974B9A00232A84"
             BuildableName = "Bubble.app"
-            BlueprintName = "Bubble"
-            ReferencedContainer = "container:Bubble.xcodeproj">
+            BlueprintName = "Reverse Polarity"
+            ReferencedContainer = "container:Reverse Polarity.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
