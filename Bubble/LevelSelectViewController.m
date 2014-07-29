@@ -24,7 +24,7 @@
             for (int i = 0; i < 10; i++) {
                 UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
                 button.frame =CGRectMake(10+i*30, 100+j*30, 30, 30);
-                NSLog(@"AYOOOOOOO");
+                //NSLog(@"AYOOOOOOO");
                 [button setTitle:[NSString stringWithFormat:@"%d",count] forState:UIControlStateNormal];
                 button.backgroundColor = [UIColor clearColor];
                 [button setTintColor:[UIColor whiteColor]];

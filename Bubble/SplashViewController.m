@@ -148,7 +148,8 @@
     twoPlayerButton =  [UIButton buttonWithType:UIButtonTypeSystem] ;
     [twoPlayerButton setFrame:CGRectMake(0.5 * (width - buttonWidth),
                                          0.5 * height + 2.2*buttonHeight, buttonWidth, buttonHeight)];
-    [twoPlayerButton setBackgroundImage:twoPlayerButtonBackground forState:UIControlStateNormal];
+    //[twoPlayerButton setBackgroundImage:twoPlayerButtonBackground forState:UIControlStateNormal];
+    [twoPlayerButton setTitle:@"LEVEL SELECT" forState:UIControlStateNormal];
     [twoPlayerButton addTarget:self action:@selector(levelSelect) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:twoPlayerButton];
 
