@@ -232,6 +232,12 @@ self.gameOver) return;
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     self.player.gravity=(!self.player.gravity);
+    if(self.player.gravity){
+    self.player.texture =[SKTexture textureWithImageNamed:@"spaceShip(down).png"];
+    }
+    else{
+    self.player.texture =[SKTexture textureWithImageNamed:@"spaceShip(up).png"];
+    }
     
   for (UITouch *touch in touches) {
     CGPoint touchLocation = [touch locationInNode:self];
@@ -239,7 +245,9 @@ self.gameOver) return;
       self.player.gravity=(!self.player.gravity);
       NSLog(@"Touch Left of screen! - Change Gravity!");
     } else {
+        
       NSLog(@"Touch Rightof screen. - Turbo!");
+
         self.player.turbo=!self.player.turbo;
         }
   }
