@@ -22,15 +22,15 @@
 
 - (void)update:(NSTimeInterval)delta
 {
-    NSLog(@"%f", 100*delta);
+    //NSLog(@"%f", 100*delta);
     
     float ySpeed;
   if(self.gravity){
-    NSLog(@"negative gravity");
+    //NSLog(@"negative gravity");
       ySpeed = -200.0;
   }
   else{
-    NSLog(@"positive gravity");
+    //NSLog(@"positive gravity");
       
       ySpeed = 450.0;
   }

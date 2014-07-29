@@ -116,7 +116,9 @@
 		C20C0E591985FF1A0058133B /* reversePolarity Full.png in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E581985FF1A0058133B /* reversePolarity Full.png */; };
 		C20C0E5B198601F00058133B /* Base.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E5A198601F00058133B /* Base.tmx */; };
 		C20C0E5D1986059D0058133B /* level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E5C1986059D0058133B /* level1.tmx */; };
+<<<<<<< HEAD
 		C20C0E5F19875F3F0058133B /* level8.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E5E19875F3F0058133B /* level8.tmx */; };
+=======
 		CE263190198861A900A1C20C /* level8.tmx in Resources */ = {isa = PBXBuildFile; fileRef = CE263188198861A900A1C20C /* level8.tmx */; };
 		CE263191198861A900A1C20C /* level9.tmx in Resources */ = {isa = PBXBuildFile; fileRef = CE263189198861A900A1C20C /* level9.tmx */; };
 		CE263192198861A900A1C20C /* level18.tmx in Resources */ = {isa = PBXBuildFile; fileRef = CE26318A198861A900A1C20C /* level18.tmx */; };
@@ -125,6 +127,7 @@
 		CE263195198861A900A1C20C /* level29.tmx in Resources */ = {isa = PBXBuildFile; fileRef = CE26318D198861A900A1C20C /* level29.tmx */; };
 		CE263196198861A900A1C20C /* level38.tmx in Resources */ = {isa = PBXBuildFile; fileRef = CE26318E198861A900A1C20C /* level38.tmx */; };
 		CE263197198861A900A1C20C /* level39.tmx in Resources */ = {isa = PBXBuildFile; fileRef = CE26318F198861A900A1C20C /* level39.tmx */; };
+>>>>>>> 5c9bd796b360c0d9ba0a6ac26787cb7df8cac88d
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -279,7 +282,9 @@
 		C20C0E581985FF1A0058133B /* reversePolarity Full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reversePolarity Full.png"; sourceTree = "<group>"; };
 		C20C0E5A198601F00058133B /* Base.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Base.tmx; sourceTree = "<group>"; };
 		C20C0E5C1986059D0058133B /* level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level1.tmx; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		C20C0E5E19875F3F0058133B /* level8.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level8.tmx; sourceTree = "<group>"; };
+=======
 		CE263188198861A900A1C20C /* level8.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level8.tmx; path = ../Desktop/level8.tmx; sourceTree = "<group>"; };
 		CE263189198861A900A1C20C /* level9.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level9.tmx; path = ../Desktop/level9.tmx; sourceTree = "<group>"; };
 		CE26318A198861A900A1C20C /* level18.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level18.tmx; path = ../Desktop/level18.tmx; sourceTree = "<group>"; };
@@ -288,6 +293,7 @@
 		CE26318D198861A900A1C20C /* level29.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level29.tmx; path = ../Desktop/level29.tmx; sourceTree = "<group>"; };
 		CE26318E198861A900A1C20C /* level38.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level38.tmx; path = ../Desktop/level38.tmx; sourceTree = "<group>"; };
 		CE26318F198861A900A1C20C /* level39.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level39.tmx; path = ../Desktop/level39.tmx; sourceTree = "<group>"; };
+>>>>>>> 5c9bd796b360c0d9ba0a6ac26787cb7df8cac88d
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -622,7 +628,10 @@
 				ORGANIZATIONNAME = "Jeff Chen";
 				TargetAttributes = {
 					1F60B14518974B9A00232A84 = {
+<<<<<<< HEAD
+=======
 						DevelopmentTeam = F3A9H63695;
+>>>>>>> 5c9bd796b360c0d9ba0a6ac26787cb7df8cac88d
 						SystemCapabilities = {
 							com.apple.GameCenter = {
 								enabled = 1;

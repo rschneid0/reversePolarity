@@ -12,6 +12,7 @@
 #import "viewControllerDelegate.h"
 #import "GameOverViewController.h"
 #import "GameModeViewController.h"
+#import "GameCenterController.h"
 
 
 @interface SinglePlayerViewController : UIViewController <viewControllerDelegate> {
@@ -26,7 +27,7 @@
 @property GameCenterController *gc;
 @property id<viewControllerDelegate> splash;
 @property (nonatomic, strong) UIView *whiteScreen;
-
+@property NSString* level;
 
 @end
 
