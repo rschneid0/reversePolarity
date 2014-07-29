@@ -215,14 +215,15 @@ self.gameOver) return;
   replay.tag = 321;
   UIImage *replayImage = [UIImage imageNamed:@"replay"];
   [replay setImage:replayImage forState:UIControlStateNormal];
-  [replay addTarget:self action:@selector(replay:) forControlEvents:UIControlEventTouchUpInside];
+  [replay addTarget:self action:@selector(replayGame) forControlEvents:UIControlEventTouchUpInside];
   replay.frame = CGRectMake(self.size.width / 2.0 - replayImage.size.width / 2.0, self.size.height / 2.0 - replayImage.size.height / 2.0, replayImage.size.width, replayImage.size.height);
   [self.view addSubview:replay];
 }
 
 //3
-- (void)replay:(id)sender
+- (void)replayGame
 {
+    replay.hidden = YES;
     [replay removeFromSuperview];
   [[self.view viewWithTag:321] removeFromSuperview];
   [self.view presentScene:[[GameLevelScene alloc] initWithSize:self.size]];
