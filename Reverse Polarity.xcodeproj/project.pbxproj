@@ -102,6 +102,8 @@
 		A9BC27AE198809760030CCF0 /* level7.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A9BC27AC198809760030CCF0 /* level7.tmx */; };
 		A9BC27AF198809760030CCF0 /* level8.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A9BC27AD198809760030CCF0 /* level8.tmx */; };
 		A9BC27B2198809820030CCF0 /* LevelSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BC27B1198809820030CCF0 /* LevelSelectViewController.m */; };
+		A9BC27B419882D120030CCF0 /* IconSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BC27B319882D120030CCF0 /* IconSmall.png */; };
+		A9BC27B619882F1D0030CCF0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BC27B519882F1D0030CCF0 /* icon.png */; };
 		A9BF9F691985DC1300B810D8 /* tileSet.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BF9F671985DC1300B810D8 /* tileSet.png */; };
 		A9BF9F6A1985DC1300B810D8 /* tileSet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BF9F681985DC1300B810D8 /* tileSet@2x.png */; };
 		A9BF9F6D1985DDE300B810D8 /* koalio_stand.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BF9F6B1985DDE300B810D8 /* koalio_stand.png */; };
@@ -254,6 +256,8 @@
 		A9BC27AD198809760030CCF0 /* level8.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level8.tmx; sourceTree = "<group>"; };
 		A9BC27B0198809820030CCF0 /* LevelSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelectViewController.h; sourceTree = "<group>"; };
 		A9BC27B1198809820030CCF0 /* LevelSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSelectViewController.m; sourceTree = "<group>"; };
+		A9BC27B319882D120030CCF0 /* IconSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IconSmall.png; path = ../IconSmall.png; sourceTree = "<group>"; };
+		A9BC27B519882F1D0030CCF0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		A9BF9F671985DC1300B810D8 /* tileSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tileSet.png; sourceTree = "<group>"; };
 		A9BF9F681985DC1300B810D8 /* tileSet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileSet@2x.png"; sourceTree = "<group>"; };
 		A9BF9F6B1985DDE300B810D8 /* koalio_stand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = koalio_stand.png; sourceTree = "<group>"; };
@@ -304,6 +308,7 @@
 			isa = PBXGroup;
 			children = (
 				A980008B19860E9C00B21DD0 /* Icon.jpg */,
+				A9BC27B519882F1D0030CCF0 /* icon.png */,
 				1F60B15118974B9A00232A84 /* Bubble */,
 				1F60B17818974B9A00232A84 /* BubbleTests */,
 				1F60B14818974B9A00232A84 /* Frameworks */,
@@ -360,6 +365,8 @@
 				A93554F01985B71A00E77285 /* SKTAudio.h */,
 				A93554F11985B71A00E77285 /* SKTAudio.m */,
 				A93554F21985B71A00E77285 /* SKTEffects.h */,
+				1F60B16B18974B9A00232A84 /* Images.xcassets */,
+				A9BC27B319882D120030CCF0 /* IconSmall.png */,
 				A93554F31985B71A00E77285 /* SKTEffects.m */,
 				A93554F41985B71A00E77285 /* SKTTimingFunctions.h */,
 				A93554F51985B71A00E77285 /* SKTTimingFunctions.m */,
@@ -390,7 +397,6 @@
 				A816810118DFE7D500504025 /* GameOverViewController.h */,
 				A816810218DFE7D500504025 /* GameOverViewController.m */,
 				A81680D518DFD7F600504025 /* Images */,
-				1F60B16B18974B9A00232A84 /* Images.xcassets */,
 				A901663018B670A60061927A /* JCJoystick.h */,
 				A901663118B670A60061927A /* JCJoystick.m */,
 				A822A3D518C16B2A00CAC8FA /* PauseViewController.h */,
@@ -663,6 +669,7 @@
 				A96FD8FC1985F696005E14F7 /* spaceShip(down).png in Resources */,
 				A96FD9011985F696005E14F7 /* spaceShip.psd in Resources */,
 				A816810918DFF4EA00504025 /* share_button.png in Resources */,
+				A9BC27B419882D120030CCF0 /* IconSmall.png in Resources */,
 				A96FD8FA1985F696005E14F7 /* bubble_icon_title.psd in Resources */,
 				A81680FA18DFD7F600504025 /* resume_button.png in Resources */,
 				A9BC27AE198809760030CCF0 /* level7.tmx in Resources */,
@@ -674,6 +681,7 @@
 				A980008919860B6500B21DD0 /* hurt.wav in Resources */,
 				A85CD01718DCEFD900FECC1C /* Hit_Hurt4.wav in Resources */,
 				A81680F818DFD7F600504025 /* pause_button.png in Resources */,
+				A9BC27B619882F1D0030CCF0 /* icon.png in Resources */,
 				A81680EA18DFD7F600504025 /* 1p_button.png in Resources */,
 				A980008C19860E9C00B21DD0 /* Icon.jpg in Resources */,
 				A85CD01618DCEFD900FECC1C /* dilate1.wav in Resources */,
@@ -850,8 +858,8 @@
 		1F60B18318974B9A00232A84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -869,8 +877,8 @@
 		1F60B18418974B9A00232A84 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
