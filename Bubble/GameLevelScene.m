@@ -25,6 +25,32 @@
 
 @implementation GameLevelScene
 
+- (instancetype)initWithSize:(CGSize)size andLevel:(NSString *)level {
+    self = [super initWithSize:size];
+    
+    if (self) {
+        NSLog(@"LLLEVELLL: %@", level);
+        self.level=level;
+        self.backgroundColor = [SKColor colorWithRed:.4 green:.4 blue:.4 alpha:1.0];
+        
+        //self.map = [JSTileMap mapNamed:@"level1x.tmx"];
+        self.map = [JSTileMap mapNamed:[NSString stringWithFormat:@"level%@.tmx",level]];
+        [self addChild:self.map];
+        self.backgrounds = [self.map layerNamed:@"backgrounds"];
+        self.walls = [self.map layerNamed:@"walls"];
+        self.hazards = [self.map layerNamed:@"hazards"];
+        
+        self.player = [[Player alloc] initWithImageNamed:@"spaceShip(flat).png"];
+        self.player.position = CGPointMake(100, 50);
+        self.player.zPosition = 15;
+        [self.map addChild:self.player];
+        
+        self.userInteractionEnabled = YES;
+    }
+    
+    return self;
+}
+
 -(id)initWithSize:(CGSize)size {
   if (self = [super initWithSize:size]) {
     //[[SKTAudio sharedInstance] playBackgroundMusic:@"level1.mp3"];
@@ -226,7 +252,7 @@ self.gameOver) return;
     replay.hidden = YES;
     [replay removeFromSuperview];
   [[self.view viewWithTag:321] removeFromSuperview];
-  [self.view presentScene:[[GameLevelScene alloc] initWithSize:self.size]];
+  [self.view presentScene:[[GameLevelScene alloc] initWithSize:self.size andLevel:self.level]];
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
@@ -243,10 +269,11 @@ self.gameOver) return;
     CGPoint touchLocation = [touch locationInNode:self];
     if (touchLocation.x > self.size.width / 2.0) {
       self.player.gravity=(!self.player.gravity);
-      NSLog(@"Touch Left of screen! - Change Gravity!");
+      //NSLog(@"Touch Left of screen! - Change Gravity!");
     } else {
         
-      NSLog(@"Touch Rightof screen. - Turbo!");
+      //NSLog(@"Touch Rightof screen. - Turbo!");
+        //self.player.gravity=(!self.player.gravity);
 
         self.player.turbo=!self.player.turbo;
         }
@@ -290,7 +317,7 @@ self.gameOver) return;
   x = MIN(x, (self.map.mapSize.width * self.map.tileSize.width) - self.size.width / 2);
   y = MIN(y, (self.map.mapSize.height * self.map.tileSize.height) - self.size.height / 2);
   CGPoint actualPosition = CGPointMake(x, y);
-  CGPoint centerOfView = CGPointMake(self.size.width/2, self.size.height/2);
+  CGPoint centerOfView = CGPointMake(self.size.width/5, self.size.height/2);
   CGPoint viewPoint = CGPointSubtract(centerOfView, actualPosition);
   self.map.position = viewPoint;
 }

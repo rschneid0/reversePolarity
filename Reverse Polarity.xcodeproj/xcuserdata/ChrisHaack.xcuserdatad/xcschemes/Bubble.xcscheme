@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F60B14518974B9A00232A84"
-            BuildableName = "Bubble.app"
-            BlueprintName = "Bubble"
-            ReferencedContainer = "container:Bubble.xcodeproj">
+            BuildableName = "Reverse Polarity.app"
+            BlueprintName = "Reverse Polarity"
+            ReferencedContainer = "container:Reverse Polarity.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F60B14518974B9A00232A84"
-            BuildableName = "Bubble.app"
-            BlueprintName = "Bubble"
-            ReferencedContainer = "container:Bubble.xcodeproj">
+            BuildableName = "Reverse Polarity.app"
+            BlueprintName = "Reverse Polarity"
+            ReferencedContainer = "container:Reverse Polarity.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>

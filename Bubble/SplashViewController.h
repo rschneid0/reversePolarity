@@ -11,6 +11,7 @@
 #import <Social/Social.h>
 #import <MediaPlayer/MediaPlayer.h>
 #import "viewControllerDelegate.h"
+#import "LevelSelectViewController.h"
 #import "GameCenterController.h"
 
 //#define TWOPLAYER
