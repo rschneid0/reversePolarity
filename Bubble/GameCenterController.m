@@ -8,7 +8,6 @@
 
 #import "GameCenterController.h"
 #import "SplashViewController.h"
-#import "TwoPlayerViewController.h"
 
 @implementation GameCenterController{
     GKMatchmaker *matchmaker;

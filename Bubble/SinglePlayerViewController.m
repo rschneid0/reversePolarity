@@ -7,7 +7,6 @@
 //
 
 #import "SinglePlayerViewController.h"
-#import "SinglePlayerScene.h"
 #import "GameLevelScene.h"
 
 //uncomment the following line to display fps

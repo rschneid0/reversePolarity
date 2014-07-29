@@ -9,7 +9,6 @@
 #import "SinglePlayerViewController.h"
 #import "SettingsViewController.h"
 #import "SplashViewController.h"
-#import "TwoPlayerViewController.h"
 
 
 @implementation SplashViewController
@@ -227,14 +226,14 @@
 -(void)setVolume:(float)volume{
     player.volume = volume;
 }
-
+/*
 -(void)startNewMultiplayerGame{
     [player stop];
     TwoPlayerViewController *vc = [[TwoPlayerViewController alloc] init];
     vc.gc = _controller;
     vc.splash = self;
     [self.navigationController pushViewController:vc animated:NO];
-}
+}*/
 
 - (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
 {

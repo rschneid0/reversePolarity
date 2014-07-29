@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F1281F4189761C8005F8A7C /* UserBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1281F3189761C8005F8A7C /* UserBubble.m */; };
 		1F60B14A18974B9A00232A84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F60B14918974B9A00232A84 /* Foundation.framework */; };
 		1F60B14C18974B9A00232A84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F60B14B18974B9A00232A84 /* CoreGraphics.framework */; };
 		1F60B14E18974B9A00232A84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F60B14D18974B9A00232A84 /* UIKit.framework */; };
@@ -16,7 +15,6 @@
 		1F60B15818974B9A00232A84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F60B15718974B9A00232A84 /* main.m */; };
 		1F60B15C18974B9A00232A84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F60B15B18974B9A00232A84 /* AppDelegate.m */; };
 		1F60B16518974B9A00232A84 /* SinglePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F60B16418974B9A00232A84 /* SinglePlayerViewController.m */; };
-		1F60B16818974B9A00232A84 /* SinglePlayerScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F60B16718974B9A00232A84 /* SinglePlayerScene.m */; };
 		1F60B16C18974B9A00232A84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F60B16B18974B9A00232A84 /* Images.xcassets */; };
 		1F60B17318974B9A00232A84 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F60B17218974B9A00232A84 /* XCTest.framework */; };
 		1F60B17418974B9A00232A84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F60B14918974B9A00232A84 /* Foundation.framework */; };
@@ -62,8 +60,6 @@
 		A85CD01E18DE88B000FECC1C /* GameCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = A85CD01D18DE88B000FECC1C /* GameCenterController.m */; };
 		A8909EA318E3DF6100C024DE /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8909EA218E3DF6100C024DE /* iAd.framework */; };
 		A8E2524918D9556900510145 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E2524818D9556900510145 /* GameKit.framework */; };
-		A8E8561118D666FA0038C1AE /* TwoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E8561018D666FA0038C1AE /* TwoPlayerViewController.m */; };
-		A8E8561418D667C80038C1AE /* TwoPlayerScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E8561318D667C80038C1AE /* TwoPlayerScene.m */; };
 		A901663218B670A60061927A /* JCJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = A901663118B670A60061927A /* JCJoystick.m */; };
 		A93554DD1985B6A700E77285 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = A93554D91985B6A700E77285 /* Player.m */; };
 		A93554DE1985B6A700E77285 /* GameLevelScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A93554DB1985B6A700E77285 /* GameLevelScene.m */; };
@@ -107,7 +103,6 @@
 		A9BF9F6A1985DC1300B810D8 /* tileSet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BF9F681985DC1300B810D8 /* tileSet@2x.png */; };
 		A9BF9F6D1985DDE300B810D8 /* koalio_stand.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BF9F6B1985DDE300B810D8 /* koalio_stand.png */; };
 		A9BF9F6E1985DDE300B810D8 /* koalio_stand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BF9F6C1985DDE300B810D8 /* koalio_stand@2x.png */; };
-		A9C46D1118DE299600BC8065 /* PowerUp.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C46D1018DE299600BC8065 /* PowerUp.m */; };
 		A9C46D2118DFCC6D00BC8065 /* GG.mp4.flac.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9C46D2018DFCC6D00BC8065 /* GG.mp4.flac.wav */; };
 		A9D21C0919874951006B9463 /* replay.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D21C0719874951006B9463 /* replay.png */; };
 		A9D21C0A19874951006B9463 /* replay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D21C0819874951006B9463 /* replay@2x.png */; };
@@ -129,8 +124,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F1281F2189761C8005F8A7C /* UserBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBubble.h; sourceTree = "<group>"; };
-		1F1281F3189761C8005F8A7C /* UserBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserBubble.m; sourceTree = "<group>"; };
 		1F60B14618974B9A00232A84 /* Bubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F60B14918974B9A00232A84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1F60B14B18974B9A00232A84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -144,8 +137,6 @@
 		1F60B15B18974B9A00232A84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1F60B16318974B9A00232A84 /* SinglePlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SinglePlayerViewController.h; sourceTree = "<group>"; };
 		1F60B16418974B9A00232A84 /* SinglePlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinglePlayerViewController.m; sourceTree = "<group>"; };
-		1F60B16618974B9A00232A84 /* SinglePlayerScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SinglePlayerScene.h; sourceTree = "<group>"; };
-		1F60B16718974B9A00232A84 /* SinglePlayerScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinglePlayerScene.m; sourceTree = "<group>"; };
 		1F60B16B18974B9A00232A84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1F60B17118974B9A00232A84 /* BubbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F60B17218974B9A00232A84 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -199,10 +190,6 @@
 		A85CD01D18DE88B000FECC1C /* GameCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCenterController.m; sourceTree = "<group>"; };
 		A8909EA218E3DF6100C024DE /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		A8E2524818D9556900510145 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		A8E8560F18D666FA0038C1AE /* TwoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoPlayerViewController.h; sourceTree = "<group>"; };
-		A8E8561018D666FA0038C1AE /* TwoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoPlayerViewController.m; sourceTree = "<group>"; };
-		A8E8561218D667C80038C1AE /* TwoPlayerScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoPlayerScene.h; sourceTree = "<group>"; };
-		A8E8561318D667C80038C1AE /* TwoPlayerScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoPlayerScene.m; sourceTree = "<group>"; };
 		A901663018B670A60061927A /* JCJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCJoystick.h; sourceTree = "<group>"; };
 		A901663118B670A60061927A /* JCJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCJoystick.m; sourceTree = "<group>"; };
 		A919A87218DA6FDD00D508F1 /* viewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viewControllerDelegate.h; sourceTree = "<group>"; };
@@ -264,8 +251,6 @@
 		A9BF9F681985DC1300B810D8 /* tileSet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tileSet@2x.png"; sourceTree = "<group>"; };
 		A9BF9F6B1985DDE300B810D8 /* koalio_stand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = koalio_stand.png; sourceTree = "<group>"; };
 		A9BF9F6C1985DDE300B810D8 /* koalio_stand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "koalio_stand@2x.png"; sourceTree = "<group>"; };
-		A9C46D0F18DE299600BC8065 /* PowerUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PowerUp.h; path = ../PowerUp.h; sourceTree = "<group>"; };
-		A9C46D1018DE299600BC8065 /* PowerUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PowerUp.m; path = ../PowerUp.m; sourceTree = "<group>"; };
 		A9C46D2018DFCC6D00BC8065 /* GG.mp4.flac.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GG.mp4.flac.wav; sourceTree = "<group>"; };
 		A9D21C0719874951006B9463 /* replay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = replay.png; sourceTree = "<group>"; };
 		A9D21C0819874951006B9463 /* replay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "replay@2x.png"; sourceTree = "<group>"; };
@@ -404,12 +389,8 @@
 				A822A3D518C16B2A00CAC8FA /* PauseViewController.h */,
 				A822A3D618C16B2A00CAC8FA /* PauseViewController.m */,
 				A816810A18DFFFD200504025 /* Plugins */,
-				A9C46D0F18DE299600BC8065 /* PowerUp.h */,
-				A9C46D1018DE299600BC8065 /* PowerUp.m */,
 				A97A9ED518989C750017183F /* SettingsViewController.h */,
 				A97A9ED618989C750017183F /* SettingsViewController.m */,
-				1F60B16618974B9A00232A84 /* SinglePlayerScene.h */,
-				1F60B16718974B9A00232A84 /* SinglePlayerScene.m */,
 				1F60B16318974B9A00232A84 /* SinglePlayerViewController.h */,
 				1F60B16418974B9A00232A84 /* SinglePlayerViewController.m */,
 				A97A9ED218988D3F0017183F /* SplashViewController.h */,
@@ -417,12 +398,6 @@
 				A81680FE18DFDFEB00504025 /* StalkerBubble.h */,
 				A81680FF18DFDFEB00504025 /* StalkerBubble.m */,
 				1F60B15218974B9A00232A84 /* Supporting Files */,
-				A8E8561218D667C80038C1AE /* TwoPlayerScene.h */,
-				A8E8561318D667C80038C1AE /* TwoPlayerScene.m */,
-				A8E8560F18D666FA0038C1AE /* TwoPlayerViewController.h */,
-				A8E8561018D666FA0038C1AE /* TwoPlayerViewController.m */,
-				1F1281F2189761C8005F8A7C /* UserBubble.h */,
-				1F1281F3189761C8005F8A7C /* UserBubble.m */,
 				A919A87218DA6FDD00D508F1 /* viewControllerDelegate.h */,
 			);
 			path = Bubble;
@@ -721,7 +696,6 @@
 			files = (
 				A93554DE1985B6A700E77285 /* GameLevelScene.m in Sources */,
 				A97A9ED418988D3F0017183F /* SplashViewController.m in Sources */,
-				1F60B16818974B9A00232A84 /* SinglePlayerScene.m in Sources */,
 				A93554E51985B6B200E77285 /* JSTileMap.m in Sources */,
 				A85CD01E18DE88B000FECC1C /* GameCenterController.m in Sources */,
 				A93554FB1985B71A00E77285 /* SKNode+SKTExtras.m in Sources */,
@@ -732,23 +706,19 @@
 				1F60B16518974B9A00232A84 /* SinglePlayerViewController.m in Sources */,
 				A93554FD1985B71A00E77285 /* SKTEffects.m in Sources */,
 				A93554F91985B71A00E77285 /* SKEmitterNode+SKTExtras.m in Sources */,
-				1F1281F4189761C8005F8A7C /* UserBubble.m in Sources */,
 				1F7C329618975A34006995F8 /* AIBubble.m in Sources */,
 				A816810318DFE7D500504025 /* GameOverViewController.m in Sources */,
-				A9C46D1118DE299600BC8065 /* PowerUp.m in Sources */,
 				A816810D18DFFFD200504025 /* iRate.m in Sources */,
 				A93554FE1985B71A00E77285 /* SKTTimingFunctions.m in Sources */,
 				A93554FC1985B71A00E77285 /* SKTAudio.m in Sources */,
 				A93554F71985B71A00E77285 /* SKAction+SKTExtras.m in Sources */,
 				A901663218B670A60061927A /* JCJoystick.m in Sources */,
 				A93554FA1985B71A00E77285 /* SKNode+SKTDebugDraw.m in Sources */,
-				A8E8561418D667C80038C1AE /* TwoPlayerScene.m in Sources */,
 				A97A9ED718989C750017183F /* SettingsViewController.m in Sources */,
 				A93554F81985B71A00E77285 /* SKAction+SKTSpecialEffects.m in Sources */,
 				1F60B15C18974B9A00232A84 /* AppDelegate.m in Sources */,
 				A816810018DFDFEB00504025 /* StalkerBubble.m in Sources */,
 				A822A3D718C16B2A00CAC8FA /* PauseViewController.m in Sources */,
-				A8E8561118D666FA0038C1AE /* TwoPlayerViewController.m in Sources */,
 				1F60B15818974B9A00232A84 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
