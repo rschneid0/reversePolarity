@@ -31,6 +31,7 @@
   }
   else{
     NSLog(@"positive gravity");
+      
       ySpeed = 450.0;
   }
     self.velocity = CGPointMake(400.0f, ySpeed);
