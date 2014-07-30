@@ -150,6 +150,8 @@
                                          0.5 * height + 2.2*buttonHeight, buttonWidth, buttonHeight)];
     //[twoPlayerButton setBackgroundImage:twoPlayerButtonBackground forState:UIControlStateNormal];
     [twoPlayerButton setTitle:@"LEVEL SELECT" forState:UIControlStateNormal];
+    [[twoPlayerButton layer] setBorderColor:[UIColor redColor].CGColor];
+    [[twoPlayerButton layer] setBorderWidth:1.0f];
     [twoPlayerButton addTarget:self action:@selector(levelSelect) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:twoPlayerButton];
 
