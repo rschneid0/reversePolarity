@@ -335,7 +335,7 @@ self.gameOver) return;
 - (SKSpriteNode *)replayButtonNode
 {
     SKSpriteNode *fireNode = [SKSpriteNode spriteNodeWithImageNamed:@"replay"];
-    fireNode.position = CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/2);
+    fireNode.position = CGPointMake(self.view.frame.size.width/2-60, self.view.frame.size.height/2-175);
 
     fireNode.name = @"fireButtonNode";//how the node is identified later
     fireNode.zPosition = 1.0;

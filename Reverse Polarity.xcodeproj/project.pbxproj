@@ -69,6 +69,7 @@
 		A91E0DD31989E82A009B05F9 /* level18.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A91E0DCB1989E82A009B05F9 /* level18.tmx */; };
 		A91E0DD41989E82A009B05F9 /* level10.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A91E0DCC1989E82A009B05F9 /* level10.tmx */; };
 		A91E0DD51989E82A009B05F9 /* level9.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A91E0DCD1989E82A009B05F9 /* level9.tmx */; };
+		A91E0DDA198B4245009B05F9 /* level20.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A91E0DD9198B4245009B05F9 /* level20.tmx */; };
 		A93554DD1985B6A700E77285 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = A93554D91985B6A700E77285 /* Player.m */; };
 		A93554DE1985B6A700E77285 /* GameLevelScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A93554DB1985B6A700E77285 /* GameLevelScene.m */; };
 		A93554DF1985B6A700E77285 /* level2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A93554DC1985B6A700E77285 /* level2.tmx */; };
@@ -214,6 +215,7 @@
 		A91E0DCB1989E82A009B05F9 /* level18.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level18.tmx; path = Bubble/level18.tmx; sourceTree = "<group>"; };
 		A91E0DCC1989E82A009B05F9 /* level10.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level10.tmx; path = Bubble/level10.tmx; sourceTree = "<group>"; };
 		A91E0DCD1989E82A009B05F9 /* level9.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level9.tmx; path = Bubble/level9.tmx; sourceTree = "<group>"; };
+		A91E0DD9198B4245009B05F9 /* level20.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level20.tmx; sourceTree = "<group>"; };
 		A93554D81985B6A700E77285 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		A93554D91985B6A700E77285 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		A93554DA1985B6A700E77285 /* GameLevelScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLevelScene.h; sourceTree = "<group>"; };
@@ -432,6 +434,7 @@
 				1F60B16418974B9A00232A84 /* SinglePlayerViewController.m */,
 				A9BC27B0198809820030CCF0 /* LevelSelectViewController.h */,
 				A9BC27B1198809820030CCF0 /* LevelSelectViewController.m */,
+				A91E0DD9198B4245009B05F9 /* level20.tmx */,
 				A9BC27AC198809760030CCF0 /* level7.tmx */,
 				A9BC27AD198809760030CCF0 /* level8.tmx */,
 				A97A9ED218988D3F0017183F /* SplashViewController.h */,
@@ -659,6 +662,7 @@
 				A91E0DCF1989E82A009B05F9 /* level38.tmx in Resources */,
 				A9BA252918E26329005EC455 /* timeslow.wav in Resources */,
 				A91E0DD31989E82A009B05F9 /* level18.tmx in Resources */,
+				A91E0DDA198B4245009B05F9 /* level20.tmx in Resources */,
 				A96FD8FF1985F696005E14F7 /* spaceShip(up).png in Resources */,
 				A9BF9F6E1985DDE300B810D8 /* koalio_stand@2x.png in Resources */,
 				A9BA252718E25E4E005EC455 /* nuke.wav in Resources */,
