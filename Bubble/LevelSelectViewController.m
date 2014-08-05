@@ -18,21 +18,30 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        mainScrollView = [[ UIScrollView alloc] initWithFrame:self.view.frame];
+        
+        mainScrollView.contentSize=CGSizeMake(610, 1000);
+        
+        
         int count=0;
         for(int j =0; j< 10;j++)
         {
             for (int i = 0; i < 10; i++) {
                 UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-                button.frame =CGRectMake(10+i*30, 100+j*30, 30, 30);
+                button.frame =CGRectMake(10+i*60, 100+j*60, 50, 50);
                 //NSLog(@"AYOOOOOOO");
                 [button setTitle:[NSString stringWithFormat:@"%d",count] forState:UIControlStateNormal];
                 button.backgroundColor = [UIColor clearColor];
                 [button setTintColor:[UIColor whiteColor]];
-                [self.view addSubview:button];
-                [button addTarget:self action:@selector(levelSelect:) forControlEvents:UIControlEventTouchDown];
+                [[button layer] setBorderColor:[UIColor whiteColor].CGColor];
+                [[button layer] setBorderWidth:1.0f];
+                [mainScrollView addSubview:button];
+                [button addTarget:self action:@selector(levelSelect:) forControlEvents:UIControlEventTouchUpInside];
                 count++;
             }
         }
+        mainScrollView.backgroundColor=[UIColor blackColor];
+        [self.view addSubview:mainScrollView];
     }
     return self;
 }

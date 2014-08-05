@@ -49,7 +49,7 @@
     copyright.textAlignment = NSTextAlignmentCenter;
     copyright.numberOfLines = 0;    
     copyright.textColor = [UIColor whiteColor];
-    copyright.text = @"created by:\n\nStephen Greco\nRolando Schneiderman";
+    copyright.text = @"created by:\n\n IMPULSE STUDIOS NYC";
     [self.view addSubview:copyright];
     
     float musicVolume = [defaults floatForKey:@"musicVolume"];

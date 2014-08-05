@@ -237,26 +237,36 @@ self.gameOver) return;
   [self addChild:endGameLabel];
   
   //2
+    /*
     replay = [UIButton buttonWithType:UIButtonTypeCustom];
   replay.tag = 321;
   UIImage *replayImage = [UIImage imageNamed:@"replay"];
   [replay setImage:replayImage forState:UIControlStateNormal];
   [replay addTarget:self action:@selector(replayGame) forControlEvents:UIControlEventTouchUpInside];
   replay.frame = CGRectMake(self.size.width / 2.0 - replayImage.size.width / 2.0, self.size.height / 2.0 - replayImage.size.height / 2.0, replayImage.size.width, replayImage.size.height);
-  [self.view addSubview:replay];
+  [self.view addSubview:replay];*/
+    [self addChild:[self replayButtonNode]];
+    
 }
 
 //3
 - (void)replayGame
 {
-    replay.hidden = YES;
-    [replay removeFromSuperview];
-  [[self.view viewWithTag:321] removeFromSuperview];
   [self.view presentScene:[[GameLevelScene alloc] initWithSize:self.size andLevel:self.level]];
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
+    UITouch *touch = [touches anyObject];
+    CGPoint location = [touch locationInNode:self];
+    SKNode *node = [self nodeAtPoint:location];
+    
+    //if fire button touched, bring the rain
+    if ([node.name isEqualToString:@"fireButtonNode"]) {
+        NSLog(@"Ayooooô");
+        [self replayGame];
+    }
+    
     self.player.gravity=(!self.player.gravity);
     if(self.player.gravity){
     self.player.texture =[SKTexture textureWithImageNamed:@"spaceShip(down).png"];
@@ -321,5 +331,16 @@ self.gameOver) return;
   CGPoint viewPoint = CGPointSubtract(centerOfView, actualPosition);
   self.map.position = viewPoint;
 }
+
+- (SKSpriteNode *)replayButtonNode
+{
+    SKSpriteNode *fireNode = [SKSpriteNode spriteNodeWithImageNamed:@"replay"];
+    fireNode.position = CGPointMake(self.view.frame.size.width/2-60, self.view.frame.size.height/2-175);
+
+    fireNode.name = @"fireButtonNode";//how the node is identified later
+    fireNode.zPosition = 1.0;
+    return fireNode;
+}
+
 
 @end

@@ -61,6 +61,15 @@
 		A8909EA318E3DF6100C024DE /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8909EA218E3DF6100C024DE /* iAd.framework */; };
 		A8E2524918D9556900510145 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E2524818D9556900510145 /* GameKit.framework */; };
 		A901663218B670A60061927A /* JCJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = A901663118B670A60061927A /* JCJoystick.m */; };
+		A91E0DCE1989E82A009B05F9 /* level39.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A91E0DC61989E82A009B05F9 /* level39.tmx */; };
+		A91E0DCF1989E82A009B05F9 /* level38.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A91E0DC71989E82A009B05F9 /* level38.tmx */; };
+		A91E0DD01989E82A009B05F9 /* level29.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A91E0DC81989E82A009B05F9 /* level29.tmx */; };
+		A91E0DD11989E82A009B05F9 /* level28.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A91E0DC91989E82A009B05F9 /* level28.tmx */; };
+		A91E0DD21989E82A009B05F9 /* level19.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A91E0DCA1989E82A009B05F9 /* level19.tmx */; };
+		A91E0DD31989E82A009B05F9 /* level18.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A91E0DCB1989E82A009B05F9 /* level18.tmx */; };
+		A91E0DD41989E82A009B05F9 /* level10.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A91E0DCC1989E82A009B05F9 /* level10.tmx */; };
+		A91E0DD51989E82A009B05F9 /* level9.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A91E0DCD1989E82A009B05F9 /* level9.tmx */; };
+		A91E0DDA198B4245009B05F9 /* level20.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A91E0DD9198B4245009B05F9 /* level20.tmx */; };
 		A93554DD1985B6A700E77285 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = A93554D91985B6A700E77285 /* Player.m */; };
 		A93554DE1985B6A700E77285 /* GameLevelScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A93554DB1985B6A700E77285 /* GameLevelScene.m */; };
 		A93554DF1985B6A700E77285 /* level2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A93554DC1985B6A700E77285 /* level2.tmx */; };
@@ -116,14 +125,7 @@
 		C20C0E591985FF1A0058133B /* reversePolarity Full.png in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E581985FF1A0058133B /* reversePolarity Full.png */; };
 		C20C0E5B198601F00058133B /* Base.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E5A198601F00058133B /* Base.tmx */; };
 		C20C0E5D1986059D0058133B /* level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E5C1986059D0058133B /* level1.tmx */; };
-		C20C0E68198864C30058133B /* level9.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E60198864C30058133B /* level9.tmx */; };
-		C20C0E69198864C30058133B /* level18.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E61198864C30058133B /* level18.tmx */; };
-		C20C0E6A198864C30058133B /* level19.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E62198864C30058133B /* level19.tmx */; };
-		C20C0E6B198864C30058133B /* level22.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E63198864C30058133B /* level22.tmx */; };
-		C20C0E6C198864C30058133B /* level28.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E64198864C30058133B /* level28.tmx */; };
-		C20C0E6D198864C30058133B /* level29.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E65198864C30058133B /* level29.tmx */; };
-		C20C0E6E198864C30058133B /* level38.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E66198864C30058133B /* level38.tmx */; };
-		C20C0E6F198864C30058133B /* level39.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E67198864C30058133B /* level39.tmx */; };
+		C2725105198F2E4A00AB3EC2 /* level32.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C2725104198F2E4A00AB3EC2 /* level32.tmx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -206,6 +208,15 @@
 		A901663018B670A60061927A /* JCJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCJoystick.h; sourceTree = "<group>"; };
 		A901663118B670A60061927A /* JCJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCJoystick.m; sourceTree = "<group>"; };
 		A919A87218DA6FDD00D508F1 /* viewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viewControllerDelegate.h; sourceTree = "<group>"; };
+		A91E0DC61989E82A009B05F9 /* level39.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level39.tmx; path = Bubble/level39.tmx; sourceTree = "<group>"; };
+		A91E0DC71989E82A009B05F9 /* level38.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level38.tmx; path = Bubble/level38.tmx; sourceTree = "<group>"; };
+		A91E0DC81989E82A009B05F9 /* level29.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level29.tmx; path = Bubble/level29.tmx; sourceTree = "<group>"; };
+		A91E0DC91989E82A009B05F9 /* level28.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level28.tmx; path = Bubble/level28.tmx; sourceTree = "<group>"; };
+		A91E0DCA1989E82A009B05F9 /* level19.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level19.tmx; path = Bubble/level19.tmx; sourceTree = "<group>"; };
+		A91E0DCB1989E82A009B05F9 /* level18.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level18.tmx; path = Bubble/level18.tmx; sourceTree = "<group>"; };
+		A91E0DCC1989E82A009B05F9 /* level10.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level10.tmx; path = Bubble/level10.tmx; sourceTree = "<group>"; };
+		A91E0DCD1989E82A009B05F9 /* level9.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level9.tmx; path = Bubble/level9.tmx; sourceTree = "<group>"; };
+		A91E0DD9198B4245009B05F9 /* level20.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level20.tmx; path = Bubble/level20.tmx; sourceTree = "<group>"; };
 		A93554D81985B6A700E77285 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		A93554D91985B6A700E77285 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		A93554DA1985B6A700E77285 /* GameLevelScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLevelScene.h; sourceTree = "<group>"; };
@@ -260,8 +271,8 @@
 		A9BA252418E1ED97005EC455 /* radiation_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radiation_icon.png; sourceTree = "<group>"; };
 		A9BA252618E25E4E005EC455 /* nuke.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nuke.wav; sourceTree = "<group>"; };
 		A9BA252818E26329005EC455 /* timeslow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = timeslow.wav; sourceTree = "<group>"; };
-		A9BC27AC198809760030CCF0 /* level7.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level7.tmx; sourceTree = "<group>"; };
-		A9BC27AD198809760030CCF0 /* level8.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level8.tmx; sourceTree = "<group>"; };
+		A9BC27AC198809760030CCF0 /* level7.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level7.tmx; path = Bubble/level7.tmx; sourceTree = "<group>"; };
+		A9BC27AD198809760030CCF0 /* level8.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level8.tmx; path = Bubble/level8.tmx; sourceTree = "<group>"; };
 		A9BC27B0198809820030CCF0 /* LevelSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelectViewController.h; sourceTree = "<group>"; };
 		A9BC27B1198809820030CCF0 /* LevelSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSelectViewController.m; sourceTree = "<group>"; };
 		A9BC27B319882D120030CCF0 /* IconSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IconSmall.png; path = ../IconSmall.png; sourceTree = "<group>"; };
@@ -278,14 +289,7 @@
 		C20C0E581985FF1A0058133B /* reversePolarity Full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reversePolarity Full.png"; sourceTree = "<group>"; };
 		C20C0E5A198601F00058133B /* Base.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Base.tmx; sourceTree = "<group>"; };
 		C20C0E5C1986059D0058133B /* level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level1.tmx; sourceTree = "<group>"; };
-		C20C0E60198864C30058133B /* level9.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level9.tmx; sourceTree = "<group>"; };
-		C20C0E61198864C30058133B /* level18.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level18.tmx; sourceTree = "<group>"; };
-		C20C0E62198864C30058133B /* level19.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level19.tmx; sourceTree = "<group>"; };
-		C20C0E63198864C30058133B /* level22.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level22.tmx; sourceTree = "<group>"; };
-		C20C0E64198864C30058133B /* level28.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level28.tmx; sourceTree = "<group>"; };
-		C20C0E65198864C30058133B /* level29.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level29.tmx; sourceTree = "<group>"; };
-		C20C0E66198864C30058133B /* level38.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level38.tmx; sourceTree = "<group>"; };
-		C20C0E67198864C30058133B /* level39.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level39.tmx; sourceTree = "<group>"; };
+		C2725104198F2E4A00AB3EC2 /* level32.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level32.tmx; path = Bubble/level32.tmx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,6 +327,18 @@
 		1F60B13D18974B9A00232A84 = {
 			isa = PBXGroup;
 			children = (
+				C2725104198F2E4A00AB3EC2 /* level32.tmx */,
+				A91E0DC61989E82A009B05F9 /* level39.tmx */,
+				A91E0DC71989E82A009B05F9 /* level38.tmx */,
+				A91E0DC81989E82A009B05F9 /* level29.tmx */,
+				A91E0DC91989E82A009B05F9 /* level28.tmx */,
+				A91E0DCA1989E82A009B05F9 /* level19.tmx */,
+				A91E0DCB1989E82A009B05F9 /* level18.tmx */,
+				A91E0DCC1989E82A009B05F9 /* level10.tmx */,
+				A91E0DCD1989E82A009B05F9 /* level9.tmx */,
+				A91E0DD9198B4245009B05F9 /* level20.tmx */,
+				A9BC27AC198809760030CCF0 /* level7.tmx */,
+				A9BC27AD198809760030CCF0 /* level8.tmx */,
 				A980008B19860E9C00B21DD0 /* Icon.jpg */,
 				A9BC27B519882F1D0030CCF0 /* icon.png */,
 				1F60B15118974B9A00232A84 /* Bubble */,
@@ -364,14 +380,6 @@
 		1F60B15118974B9A00232A84 /* Bubble */ = {
 			isa = PBXGroup;
 			children = (
-				C20C0E60198864C30058133B /* level9.tmx */,
-				C20C0E61198864C30058133B /* level18.tmx */,
-				C20C0E62198864C30058133B /* level19.tmx */,
-				C20C0E63198864C30058133B /* level22.tmx */,
-				C20C0E64198864C30058133B /* level28.tmx */,
-				C20C0E65198864C30058133B /* level29.tmx */,
-				C20C0E66198864C30058133B /* level38.tmx */,
-				C20C0E67198864C30058133B /* level39.tmx */,
 				C20C0E581985FF1A0058133B /* reversePolarity Full.png */,
 				C20C0E5C1986059D0058133B /* level1.tmx */,
 				C20C0E5A198601F00058133B /* Base.tmx */,
@@ -432,8 +440,6 @@
 				1F60B16418974B9A00232A84 /* SinglePlayerViewController.m */,
 				A9BC27B0198809820030CCF0 /* LevelSelectViewController.h */,
 				A9BC27B1198809820030CCF0 /* LevelSelectViewController.m */,
-				A9BC27AC198809760030CCF0 /* level7.tmx */,
-				A9BC27AD198809760030CCF0 /* level8.tmx */,
 				A97A9ED218988D3F0017183F /* SplashViewController.h */,
 				A97A9ED318988D3F0017183F /* SplashViewController.m */,
 				A81680FE18DFDFEB00504025 /* StalkerBubble.h */,
@@ -655,7 +661,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C20C0E5D1986059D0058133B /* level1.tmx in Resources */,
+				A91E0DCF1989E82A009B05F9 /* level38.tmx in Resources */,
 				A9BA252918E26329005EC455 /* timeslow.wav in Resources */,
+				A91E0DD31989E82A009B05F9 /* level18.tmx in Resources */,
+				A91E0DDA198B4245009B05F9 /* level20.tmx in Resources */,
 				A96FD8FF1985F696005E14F7 /* spaceShip(up).png in Resources */,
 				A9BF9F6E1985DDE300B810D8 /* koalio_stand@2x.png in Resources */,
 				A9BA252718E25E4E005EC455 /* nuke.wav in Resources */,
@@ -663,18 +672,19 @@
 				A9BF9F6D1985DDE300B810D8 /* koalio_stand.png in Resources */,
 				A9A564F118DFE67F00840421 /* splash.mp3 in Resources */,
 				A96FD8F91985F696005E14F7 /* bubble_icon.psd in Resources */,
-				C20C0E6E198864C30058133B /* level38.tmx in Resources */,
 				A9C46D2118DFCC6D00BC8065 /* GG.mp4.flac.wav in Resources */,
 				A9D21C0A19874951006B9463 /* replay@2x.png in Resources */,
+				A91E0DCE1989E82A009B05F9 /* level39.tmx in Resources */,
 				A81680ED18DFD7F600504025 /* bubble_button.png in Resources */,
 				A81680F518DFD7F600504025 /* clock_icon.png in Resources */,
 				A96FD8FD1985F696005E14F7 /* spaceShip(down).psd in Resources */,
 				A81680F418DFD7F600504025 /* bubble_ios_icon_80.png in Resources */,
 				A81680FC18DFD7F600504025 /* thunderbolt_icon.png in Resources */,
+				A91E0DD41989E82A009B05F9 /* level10.tmx in Resources */,
 				A81680F718DFD7F600504025 /* options_button.png in Resources */,
 				A81680F918DFD7F600504025 /* quit_button.png in Resources */,
 				1F60B16C18974B9A00232A84 /* Images.xcassets in Resources */,
-				C20C0E69198864C30058133B /* level18.tmx in Resources */,
+				A91E0DD51989E82A009B05F9 /* level9.tmx in Resources */,
 				A816810718DFEF7900504025 /* game_over_background.png in Resources */,
 				A980008719860B6500B21DD0 /* bubble_button.psd in Resources */,
 				A81680EC18DFD7F600504025 /* back_button.png in Resources */,
@@ -686,7 +696,6 @@
 				A96FD9001985F696005E14F7 /* spaceShip(up).psd in Resources */,
 				A980008A19860B6500B21DD0 /* jump.wav in Resources */,
 				A81680F018DFD7F600504025 /* bubble_icon_launch_640_960.png in Resources */,
-				C20C0E6A198864C30058133B /* level19.tmx in Resources */,
 				A96FD8FB1985F696005E14F7 /* bubble_ios_icon.psd in Resources */,
 				A93554DF1985B6A700E77285 /* level2.tmx in Resources */,
 				A980008819860B6500B21DD0 /* Icon.jpg in Resources */,
@@ -695,20 +704,17 @@
 				A96FD8FC1985F696005E14F7 /* spaceShip(down).png in Resources */,
 				A96FD9011985F696005E14F7 /* spaceShip.psd in Resources */,
 				A816810918DFF4EA00504025 /* share_button.png in Resources */,
-				C20C0E68198864C30058133B /* level9.tmx in Resources */,
 				A9BC27B419882D120030CCF0 /* IconSmall.png in Resources */,
-				C20C0E6B198864C30058133B /* level22.tmx in Resources */,
-				C20C0E6F198864C30058133B /* level39.tmx in Resources */,
 				A96FD8FA1985F696005E14F7 /* bubble_icon_title.psd in Resources */,
 				A81680FA18DFD7F600504025 /* resume_button.png in Resources */,
 				A9BC27AE198809760030CCF0 /* level7.tmx in Resources */,
 				A9D21C0919874951006B9463 /* replay.png in Resources */,
 				A816811218E1161200504025 /* mode_pick_background.png in Resources */,
 				A81680FD18DFD7F600504025 /* twitter_logo.png in Resources */,
+				A91E0DD21989E82A009B05F9 /* level19.tmx in Resources */,
 				C20C0E5B198601F00058133B /* Base.tmx in Resources */,
 				A980008619860B6500B21DD0 /* spaceShip(flat).png in Resources */,
 				A980008919860B6500B21DD0 /* hurt.wav in Resources */,
-				C20C0E6C198864C30058133B /* level28.tmx in Resources */,
 				A85CD01718DCEFD900FECC1C /* Hit_Hurt4.wav in Resources */,
 				A81680F818DFD7F600504025 /* pause_button.png in Resources */,
 				A9BC27B619882F1D0030CCF0 /* icon.png in Resources */,
@@ -716,14 +722,16 @@
 				A980008C19860E9C00B21DD0 /* Icon.jpg in Resources */,
 				A85CD01618DCEFD900FECC1C /* dilate1.wav in Resources */,
 				A81680FB18DFD7F600504025 /* shield_icon.png in Resources */,
+				A91E0DD01989E82A009B05F9 /* level29.tmx in Resources */,
 				A9BF9F6A1985DC1300B810D8 /* tileSet@2x.png in Resources */,
-				C20C0E6D198864C30058133B /* level29.tmx in Resources */,
 				A9BF9F691985DC1300B810D8 /* tileSet.png in Resources */,
 				A816811318E1161200504025 /* normal_mode_button.png in Resources */,
 				A96FD8F81985F696005E14F7 /* bubble_button.psd in Resources */,
+				A91E0DD11989E82A009B05F9 /* level28.tmx in Resources */,
 				C20C0E591985FF1A0058133B /* reversePolarity Full.png in Resources */,
 				A81680F618DFD7F600504025 /* game_center_logo.png in Resources */,
 				A85CD01918DCEFD900FECC1C /* singleplayer.mp3 in Resources */,
+				C2725105198F2E4A00AB3EC2 /* level32.tmx in Resources */,
 				A85CD01818DCEFD900FECC1C /* powerup.wav in Resources */,
 				A980008519860B6500B21DD0 /* spaceShip(up).png in Resources */,
 				A96FD8FE1985F696005E14F7 /* spaceShip(flat).png in Resources */,

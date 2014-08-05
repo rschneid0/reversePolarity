@@ -10,6 +10,8 @@
 #import "SinglePlayerViewController.h"
 
 @interface LevelSelectViewController : UIViewController
-
+{
+    UIScrollView *  mainScrollView;
+}
 @property NSString* level;
 @end
