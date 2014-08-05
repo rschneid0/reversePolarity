@@ -48,7 +48,7 @@
     /*[quitButton setFrame:CGRectMake(0.5 * (width - buttonWidth),
                                     0.5 * height + 1.1*buttonHeight, buttonWidth, buttonHeight)];
     */
-    [quitButton setFrame:CGRectMake(10, 10, 250, 100)];
+    [quitButton setFrame:CGRectMake(10, 100, 250, 100)];
     [quitButton setBackgroundImage:quitButtonBackground forState:UIControlStateNormal];
     [quitButton addTarget:self action:@selector(quitGame) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:quitButton];
@@ -65,7 +65,7 @@
 
 - (BOOL)shouldAutorotate
 {
-    return NO;
+    return YES;
 }
 
 - (void)didReceiveMemoryWarning

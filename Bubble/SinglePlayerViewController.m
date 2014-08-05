@@ -139,8 +139,8 @@
     UIImage *pauseButtonBackground = [UIImage imageNamed:@"pause_button.png"];
     
     pauseButton =  [UIButton buttonWithType:UIButtonTypeSystem] ;
-    [pauseButton setFrame:CGRectMake(self.view.bounds.size.width - 35 + 250,
-                                          15, 20.0, 25.0)];
+    [pauseButton setFrame:CGRectMake(self.view.bounds.size.width - 35 + 220,
+                                          15, 50.0, 50.0)];
     [pauseButton setBackgroundImage:pauseButtonBackground forState:UIControlStateNormal];
     [pauseButton addTarget:self action:@selector(pause) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:pauseButton];
@@ -162,7 +162,8 @@
     [player pause];
     if (![scene isPaused]){
         //[scene pause];
-        PauseViewController *pauseMenu = [[PauseViewController alloc] initWithNibName:nil bundle:nil];
+        PauseViewController *pauseMenu = [[PauseViewController alloc] init];
+        pauseMenu.view.frame=CGRectMake(0, 0, self.view.frame.size.height, self.view.frame.size.width);
         [self addChildViewController:pauseMenu];
         [[self view] addSubview: [pauseMenu view]];
     }

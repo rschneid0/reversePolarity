@@ -246,7 +246,7 @@ self.gameOver) return;
   replay.frame = CGRectMake(self.size.width / 2.0 - replayImage.size.width / 2.0, self.size.height / 2.0 - replayImage.size.height / 2.0, replayImage.size.width, replayImage.size.height);
   [self.view addSubview:replay];*/
     SKSpriteNode *fireNode = [SKSpriteNode spriteNodeWithImageNamed:@"replay"];
-    fireNode.position = CGPointMake(self.view.frame.size.width/2-60, self.view.frame.size.height/2-175);
+    fireNode.position = CGPointMake(self.view.frame.size.width/2+130, self.view.frame.size.height/2-175);
     
     fireNode.name = @"fireButtonNode";//how the node is identified later
     fireNode.zPosition = 1.0;
@@ -278,7 +278,9 @@ self.gameOver) return;
     else{
     self.player.texture =[SKTexture textureWithImageNamed:@"spaceShip(up).png"];
     }
-    
+    //self.player.gravity=(!self.player.gravity);
+    //self.player.turbo=!self.player.turbo;
+
   for (UITouch *touch in touches) {
     CGPoint touchLocation = [touch locationInNode:self];
     if (touchLocation.x > self.size.width / 2.0) {
@@ -288,7 +290,7 @@ self.gameOver) return;
         
       //NSLog(@"Touch Rightof screen. - Turbo!");
         //self.player.gravity=(!self.player.gravity);
-
+        //self.player.gravity=(!self.player.gravity);
         self.player.turbo=!self.player.turbo;
         }
   }
