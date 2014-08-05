@@ -245,8 +245,12 @@ self.gameOver) return;
   [replay addTarget:self action:@selector(replayGame) forControlEvents:UIControlEventTouchUpInside];
   replay.frame = CGRectMake(self.size.width / 2.0 - replayImage.size.width / 2.0, self.size.height / 2.0 - replayImage.size.height / 2.0, replayImage.size.width, replayImage.size.height);
   [self.view addSubview:replay];*/
-    [self addChild:[self replayButtonNode]];
+    SKSpriteNode *fireNode = [SKSpriteNode spriteNodeWithImageNamed:@"replay"];
+    fireNode.position = CGPointMake(self.view.frame.size.width/2-60, self.view.frame.size.height/2-175);
     
+    fireNode.name = @"fireButtonNode";//how the node is identified later
+    fireNode.zPosition = 1.0;
+    [self addChild:fireNode];
 }
 
 //3

@@ -22,6 +22,15 @@
         
         mainScrollView.contentSize=CGSizeMake(610, 1000);
         
+        UIButton* backButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+        backButton.frame=CGRectMake(10, 30, 60, 60);
+        [backButton setTitle:@"<" forState:UIControlStateNormal];
+        backButton.titleLabel.textColor=[UIColor redColor];
+        [backButton addTarget:self action:@selector(exitView) forControlEvents:UIControlEventTouchUpInside];
+        //backButton.backgroundColor= [UIColor whiteColor];
+        
+        [self.view addSubview:backButton];
+        
         
         int count=0;
         for(int j =0; j< 10;j++)
@@ -42,6 +51,7 @@
         }
         mainScrollView.backgroundColor=[UIColor blackColor];
         [self.view addSubview:mainScrollView];
+        [self.view addSubview:backButton];
     }
     return self;
 }
@@ -67,6 +77,11 @@
     SinglePlayerViewController *gameView = [[SinglePlayerViewController alloc] init];
     gameView.level=sender.titleLabel.text;
     [self.navigationController pushViewController:gameView animated:NO];
+}
+
+-(void)exitView{
+    [self.navigationController popViewControllerAnimated:YES];
+    //[self.navigationController pushViewController:self animated:YES]
 }
 
 /*
