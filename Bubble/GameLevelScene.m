@@ -291,7 +291,7 @@ self.gameOver) return;
       //NSLog(@"Touch Rightof screen. - Turbo!");
         //self.player.gravity=(!self.player.gravity);
         //self.player.gravity=(!self.player.gravity);
-        self.player.turbo=!self.player.turbo;
+        //self.player.turbo=!self.player.turbo;
         }
   }
 }
