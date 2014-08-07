@@ -125,6 +125,7 @@
 		A9D6377619906D140037E660 /* level17.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A9D6377319906D140037E660 /* level17.tmx */; };
 		A9D68DE418DB57FF00299441 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D68DE318DB57FF00299441 /* AVFoundation.framework */; };
 		A9D68DE618DB580E00299441 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D68DE518DB580E00299441 /* AudioToolbox.framework */; };
+		A9F3FC0F19933861002F4047 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F3FC0E19933861002F4047 /* Default.png */; };
 		C20C0E591985FF1A0058133B /* reversePolarity Full.png in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E581985FF1A0058133B /* reversePolarity Full.png */; };
 		C20C0E5B198601F00058133B /* Base.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E5A198601F00058133B /* Base.tmx */; };
 		C20C0E5D1986059D0058133B /* level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E5C1986059D0058133B /* level1.tmx */; };
@@ -292,6 +293,7 @@
 		A9D6377319906D140037E660 /* level17.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level17.tmx; path = Bubble/level17.tmx; sourceTree = "<group>"; };
 		A9D68DE318DB57FF00299441 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A9D68DE518DB580E00299441 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A9F3FC0E19933861002F4047 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C20C0E581985FF1A0058133B /* reversePolarity Full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reversePolarity Full.png"; sourceTree = "<group>"; };
 		C20C0E5A198601F00058133B /* Base.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Base.tmx; sourceTree = "<group>"; };
 		C20C0E5C1986059D0058133B /* level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level1.tmx; sourceTree = "<group>"; };
@@ -406,8 +408,9 @@
 				A93554F01985B71A00E77285 /* SKTAudio.h */,
 				A93554F11985B71A00E77285 /* SKTAudio.m */,
 				A93554F21985B71A00E77285 /* SKTEffects.h */,
-				1F60B16B18974B9A00232A84 /* Images.xcassets */,
+				A9F3FC0E19933861002F4047 /* Default.png */,
 				A9BC27B319882D120030CCF0 /* IconSmall.png */,
+				1F60B16B18974B9A00232A84 /* Images.xcassets */,
 				A93554F31985B71A00E77285 /* SKTEffects.m */,
 				A93554F41985B71A00E77285 /* SKTTimingFunctions.h */,
 				A93554F51985B71A00E77285 /* SKTTimingFunctions.m */,
@@ -689,6 +692,7 @@
 				A91E0DCE1989E82A009B05F9 /* level39.tmx in Resources */,
 				A81680ED18DFD7F600504025 /* bubble_button.png in Resources */,
 				A81680F518DFD7F600504025 /* clock_icon.png in Resources */,
+				A9F3FC0F19933861002F4047 /* Default.png in Resources */,
 				A96FD8FD1985F696005E14F7 /* spaceShip(down).psd in Resources */,
 				A81680F418DFD7F600504025 /* bubble_ios_icon_80.png in Resources */,
 				A81680FC18DFD7F600504025 /* thunderbolt_icon.png in Resources */,
