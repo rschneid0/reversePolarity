@@ -14,4 +14,5 @@
 }
 - (instancetype)initWithSize:(CGSize)size andLevel:(NSString *)level;
 @property NSString* level;
+@property BOOL isPaused;
 @end

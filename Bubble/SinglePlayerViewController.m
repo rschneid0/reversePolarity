@@ -159,14 +159,12 @@
 }
 
 - (IBAction)pause{
-    [player pause];
-    if (![scene isPaused]){
-        //[scene pause];
-        PauseViewController *pauseMenu = [[PauseViewController alloc] init];
-        pauseMenu.view.frame=CGRectMake(0, 0, self.view.frame.size.height, self.view.frame.size.width);
-        [self addChildViewController:pauseMenu];
-        [[self view] addSubview: [pauseMenu view]];
-    }
+    //NSLog(@"Her");
+    scene.isPaused=YES;
+    PauseViewController *pauseMenu = [[PauseViewController alloc] init];
+    pauseMenu.view.frame=CGRectMake(0, 0, self.view.frame.size.height, self.view.frame.size.width);
+    [self addChildViewController:pauseMenu];
+    [[self view] addSubview: [pauseMenu view]];
 }
 
 - (IBAction)resume
@@ -174,6 +172,7 @@
     if ([self.splash shouldPlayMusic]){
         [player play];
     }
+    scene.isPaused=NO;
     //[scene unpause];
 }
 

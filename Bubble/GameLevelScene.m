@@ -76,9 +76,11 @@
 
 - (void)update:(NSTimeInterval)currentTime
 {
+    if(self.isPaused){
+        return;
+    }
     //if (self.position.x<250);
-  if (
-self.gameOver) return;
+  if (self.gameOver) return;
 
   NSTimeInterval delta = currentTime - self.previousUpdateTime;
 
