@@ -126,6 +126,12 @@
 		A9D68DE418DB57FF00299441 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D68DE318DB57FF00299441 /* AVFoundation.framework */; };
 		A9D68DE618DB580E00299441 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D68DE518DB580E00299441 /* AudioToolbox.framework */; };
 		A9F3FC0F19933861002F4047 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F3FC0E19933861002F4047 /* Default.png */; };
+		A9F3FC1119934087002F4047 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F3FC1019934087002F4047 /* spark.png */; };
+		A9F3FC14199341A6002F4047 /* SKEmitterNode+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F3FC13199341A6002F4047 /* SKEmitterNode+Utilities.m */; };
+		A9F3FC1919934298002F4047 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9F3FC1519934298002F4047 /* Fire.sks */; };
+		A9F3FC1A19934298002F4047 /* CloudParticleEmitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9F3FC1619934298002F4047 /* CloudParticleEmitter.sks */; };
+		A9F3FC1B19934298002F4047 /* DamageSmoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9F3FC1719934298002F4047 /* DamageSmoke.sks */; };
+		A9F3FC1C19934298002F4047 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9F3FC1819934298002F4047 /* Explosion.sks */; };
 		C20C0E591985FF1A0058133B /* reversePolarity Full.png in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E581985FF1A0058133B /* reversePolarity Full.png */; };
 		C20C0E5B198601F00058133B /* Base.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E5A198601F00058133B /* Base.tmx */; };
 		C20C0E5D1986059D0058133B /* level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = C20C0E5C1986059D0058133B /* level1.tmx */; };
@@ -294,6 +300,13 @@
 		A9D68DE318DB57FF00299441 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A9D68DE518DB580E00299441 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		A9F3FC0E19933861002F4047 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A9F3FC1019934087002F4047 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		A9F3FC12199341A6002F4047 /* SKEmitterNode+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+Utilities.h"; sourceTree = "<group>"; };
+		A9F3FC13199341A6002F4047 /* SKEmitterNode+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+Utilities.m"; sourceTree = "<group>"; };
+		A9F3FC1519934298002F4047 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+		A9F3FC1619934298002F4047 /* CloudParticleEmitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CloudParticleEmitter.sks; sourceTree = "<group>"; };
+		A9F3FC1719934298002F4047 /* DamageSmoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = DamageSmoke.sks; sourceTree = "<group>"; };
+		A9F3FC1819934298002F4047 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 		C20C0E581985FF1A0058133B /* reversePolarity Full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reversePolarity Full.png"; sourceTree = "<group>"; };
 		C20C0E5A198601F00058133B /* Base.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Base.tmx; sourceTree = "<group>"; };
 		C20C0E5C1986059D0058133B /* level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level1.tmx; sourceTree = "<group>"; };
@@ -408,6 +421,8 @@
 				A93554F01985B71A00E77285 /* SKTAudio.h */,
 				A93554F11985B71A00E77285 /* SKTAudio.m */,
 				A93554F21985B71A00E77285 /* SKTEffects.h */,
+				A9F3FC12199341A6002F4047 /* SKEmitterNode+Utilities.h */,
+				A9F3FC13199341A6002F4047 /* SKEmitterNode+Utilities.m */,
 				A9F3FC0E19933861002F4047 /* Default.png */,
 				A9BC27B319882D120030CCF0 /* IconSmall.png */,
 				1F60B16B18974B9A00232A84 /* Images.xcassets */,
@@ -425,6 +440,10 @@
 				A93554DB1985B6A700E77285 /* GameLevelScene.m */,
 				A9D21C0719874951006B9463 /* replay.png */,
 				A9D21C0819874951006B9463 /* replay@2x.png */,
+				A9F3FC1519934298002F4047 /* Fire.sks */,
+				A9F3FC1619934298002F4047 /* CloudParticleEmitter.sks */,
+				A9F3FC1719934298002F4047 /* DamageSmoke.sks */,
+				A9F3FC1819934298002F4047 /* Explosion.sks */,
 				A93554DC1985B6A700E77285 /* level2.tmx */,
 				1F7C329418975A34006995F8 /* AIBubble.h */,
 				1F7C329518975A34006995F8 /* AIBubble.m */,
@@ -456,6 +475,7 @@
 				A97A9ED318988D3F0017183F /* SplashViewController.m */,
 				A81680FE18DFDFEB00504025 /* StalkerBubble.h */,
 				A81680FF18DFDFEB00504025 /* StalkerBubble.m */,
+				A9F3FC1019934087002F4047 /* spark.png */,
 				1F60B15218974B9A00232A84 /* Supporting Files */,
 				A919A87218DA6FDD00D508F1 /* viewControllerDelegate.h */,
 			);
@@ -693,6 +713,7 @@
 				A81680ED18DFD7F600504025 /* bubble_button.png in Resources */,
 				A81680F518DFD7F600504025 /* clock_icon.png in Resources */,
 				A9F3FC0F19933861002F4047 /* Default.png in Resources */,
+				A9F3FC1B19934298002F4047 /* DamageSmoke.sks in Resources */,
 				A96FD8FD1985F696005E14F7 /* spaceShip(down).psd in Resources */,
 				A81680F418DFD7F600504025 /* bubble_ios_icon_80.png in Resources */,
 				A81680FC18DFD7F600504025 /* thunderbolt_icon.png in Resources */,
@@ -719,6 +740,8 @@
 				A81680F218DFD7F600504025 /* bubble_ios_icon_120.png in Resources */,
 				A96FD8FC1985F696005E14F7 /* spaceShip(down).png in Resources */,
 				A96FD9011985F696005E14F7 /* spaceShip.psd in Resources */,
+				A9F3FC1C19934298002F4047 /* Explosion.sks in Resources */,
+				A9F3FC1119934087002F4047 /* spark.png in Resources */,
 				A816810918DFF4EA00504025 /* share_button.png in Resources */,
 				A9BC27B419882D120030CCF0 /* IconSmall.png in Resources */,
 				A96FD8FA1985F696005E14F7 /* bubble_icon_title.psd in Resources */,
@@ -737,6 +760,7 @@
 				A81680EA18DFD7F600504025 /* 1p_button.png in Resources */,
 				A980008C19860E9C00B21DD0 /* Icon.jpg in Resources */,
 				A85CD01618DCEFD900FECC1C /* dilate1.wav in Resources */,
+				A9F3FC1919934298002F4047 /* Fire.sks in Resources */,
 				A81680FB18DFD7F600504025 /* shield_icon.png in Resources */,
 				A91E0DD01989E82A009B05F9 /* level29.tmx in Resources */,
 				A9D6377619906D140037E660 /* level17.tmx in Resources */,
@@ -744,6 +768,7 @@
 				A9BF9F691985DC1300B810D8 /* tileSet.png in Resources */,
 				A816811318E1161200504025 /* normal_mode_button.png in Resources */,
 				A96FD8F81985F696005E14F7 /* bubble_button.psd in Resources */,
+				A9F3FC1A19934298002F4047 /* CloudParticleEmitter.sks in Resources */,
 				A91E0DD11989E82A009B05F9 /* level28.tmx in Resources */,
 				C20C0E591985FF1A0058133B /* reversePolarity Full.png in Resources */,
 				A81680F618DFD7F600504025 /* game_center_logo.png in Resources */,
@@ -776,6 +801,7 @@
 				A93554E51985B6B200E77285 /* JSTileMap.m in Sources */,
 				A85CD01E18DE88B000FECC1C /* GameCenterController.m in Sources */,
 				A93554FB1985B71A00E77285 /* SKNode+SKTExtras.m in Sources */,
+				A9F3FC14199341A6002F4047 /* SKEmitterNode+Utilities.m in Sources */,
 				A93554E41985B6B200E77285 /* LFCGzipUtility.m in Sources */,
 				1F60B18A1897500300232A84 /* Bubble.m in Sources */,
 				A93554DD1985B6A700E77285 /* Player.m in Sources */,

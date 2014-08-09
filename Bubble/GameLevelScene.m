@@ -11,6 +11,7 @@
 #import "Player.h"
 #import "SKTAudio.h"
 #import "SKTUtils.h"
+#import "SKEmitterNode+Utilities.h"
 
 @interface GameLevelScene()
 
@@ -207,14 +208,21 @@
     if (gid != 0) {
       CGRect tileRect = [self tileRectFromTileCoords:tileCoord];
       if (CGRectIntersectsRect(playerRect, tileRect)) {
+          SKEmitterNode *emitter = [SKEmitterNode emitterNamed:@"Explosion"];
+          emitter.position = player.position;
+          emitter.particleAlpha = 0.5;
+          [self addChild:emitter];
+          [emitter runAction:[SKAction sequence:@[[SKAction fadeAlphaTo:1 duration:999.3], [SKAction removeFromParent]]]];
+          [player removeFromParent];
         [self gameOver:0];
+          
       }
     }
   }
 }
 
 -(void)checkForWin {
-  if (self.player.position.x > 8130.0) {
+  if (self.player.position.x > 7780.0) {
     [self gameOver:1];
   }
 }
@@ -228,6 +236,12 @@
   if (won) {
     gameText = @"You Won!";
   } else {
+      SKEmitterNode *emitter = [SKEmitterNode emitterNamed:@"Explosion"];
+      [emitter setPosition:self.view.center];
+      emitter.particleAlpha = 1;
+      [emitter setScale:6.3f];
+      [self addChild:emitter];
+      [emitter runAction:[SKAction sequence:@[[SKAction fadeAlphaTo:1 duration:999.3], [SKAction removeFromParent]]]];
     gameText = @"You have Died!";
   }
 	
