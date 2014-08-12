@@ -239,7 +239,7 @@
       SKEmitterNode *emitter = [SKEmitterNode emitterNamed:@"Explosion"];
       [emitter setPosition:self.view.center];
       emitter.particleAlpha = 1;
-      [emitter setScale:6.3f];
+      [emitter setScale:5.3f];
       [self addChild:emitter];
       [emitter runAction:[SKAction sequence:@[[SKAction fadeAlphaTo:1 duration:999.3], [SKAction removeFromParent]]]];
     gameText = @"You have Died!";
