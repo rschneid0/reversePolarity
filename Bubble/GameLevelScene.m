@@ -299,11 +299,16 @@
 
   for (UITouch *touch in touches) {
     CGPoint touchLocation = [touch locationInNode:self];
-    if (touchLocation.x > self.size.width / 2.0) {
+      if(false){
+      //if (touchLocation.x > self.size.width / 2.0) {
+        NSLog(@"Touch left of screen");
+
       self.player.gravity=(!self.player.gravity);
       //NSLog(@"Touch Left of screen! - Change Gravity!");
     } else {
-        
+        NSLog(@"Touch right of screen");
+            //self.player.gravity=(!self.player.gravity);
+
       //NSLog(@"Touch Rightof screen. - Turbo!");
         //self.player.gravity=(!self.player.gravity);
         //self.player.gravity=(!self.player.gravity);
