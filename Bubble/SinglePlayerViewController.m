@@ -139,7 +139,7 @@
     UIImage *pauseButtonBackground = [UIImage imageNamed:@"pause_button.png"];
     
     pauseButton =  [UIButton buttonWithType:UIButtonTypeSystem] ;
-    [pauseButton setFrame:CGRectMake(self.view.bounds.size.width - 35 + 220,
+    [pauseButton setFrame:CGRectMake(10,
                                           15, 50.0, 50.0)];
     [pauseButton setBackgroundImage:pauseButtonBackground forState:UIControlStateNormal];
     [pauseButton addTarget:self action:@selector(pause) forControlEvents:UIControlEventTouchUpInside];
