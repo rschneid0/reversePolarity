@@ -35,7 +35,7 @@
     NSString *soundFilePath = [[NSBundle mainBundle] pathForResource:@"singleplayer" ofType:@"mp3"];
     NSURL *soundFileURL = [NSURL fileURLWithPath:soundFilePath];
     player = [[AVAudioPlayer alloc] initWithContentsOfURL:soundFileURL error:nil];
-    player.numberOfLoops = -1; //infinite loop
+    player.numberOfLoops = -0; //infinite loop
     player.volume = (musicVolume == 0) ? 1.0 : musicVolume;
     
     if ([self.splash shouldPlayMusic]){

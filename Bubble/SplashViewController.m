@@ -142,7 +142,7 @@
     [singlePlayerButton setFrame:CGRectMake(0.5 * (width - buttonWidth),
                                             0.5 * height + buttonHeight, buttonWidth, buttonHeight)];
     [singlePlayerButton setBackgroundImage:singlePlayerButtonBackground forState:UIControlStateNormal];
-    [singlePlayerButton addTarget:self action:@selector(gameView) forControlEvents:UIControlEventTouchUpInside];
+    [singlePlayerButton addTarget:self action:@selector(levelSelect) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:singlePlayerButton];
     
     twoPlayerButton =  [UIButton buttonWithType:UIButtonTypeSystem] ;
@@ -153,7 +153,7 @@
     [[twoPlayerButton layer] setBorderColor:[UIColor redColor].CGColor];
     [[twoPlayerButton layer] setBorderWidth:1.0f];
     [twoPlayerButton addTarget:self action:@selector(levelSelect) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:twoPlayerButton];
+    //[self.view addSubview:twoPlayerButton];
 
     optionsButton =  [UIButton buttonWithType:UIButtonTypeSystem] ;
     [optionsButton setFrame:CGRectMake(0.5 * (width - buttonWidth),

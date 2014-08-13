@@ -31,6 +31,10 @@
         
         [self.view addSubview:backButton];
         
+        UILabel * TitleLabel = [[UILabel alloc] initWithFrame:CGRectMake(150, 20, 400, 50)];
+        TitleLabel.text=@"CHOOSE YOUR WORLD";
+        TitleLabel.textColor=[UIColor whiteColor];
+        [mainScrollView addSubview:TitleLabel];
         
         int count=0;
         for(int j =0; j< 10;j++)

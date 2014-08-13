@@ -104,6 +104,10 @@
 		A93554FD1985B71A00E77285 /* SKTEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = A93554F31985B71A00E77285 /* SKTEffects.m */; };
 		A93554FE1985B71A00E77285 /* SKTTimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = A93554F51985B71A00E77285 /* SKTTimingFunctions.m */; };
 		A93555001985B7FE00E77285 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A93554FF1985B7FE00E77285 /* libz.dylib */; };
+		A95A42A2199B31E6003ECBA6 /* Powerup50.wav in Resources */ = {isa = PBXBuildFile; fileRef = A95A429F199B31E6003ECBA6 /* Powerup50.wav */; };
+		A95A42A3199B31E6003ECBA6 /* Powerup21.wav in Resources */ = {isa = PBXBuildFile; fileRef = A95A42A0199B31E6003ECBA6 /* Powerup21.wav */; };
+		A95A42A4199B31E6003ECBA6 /* Laser_Shoot2.wav in Resources */ = {isa = PBXBuildFile; fileRef = A95A42A1199B31E6003ECBA6 /* Laser_Shoot2.wav */; };
+		A95A42A6199B3222003ECBA6 /* Explosion18.wav in Resources */ = {isa = PBXBuildFile; fileRef = A95A42A5199B3222003ECBA6 /* Explosion18.wav */; };
 		A96FD8F81985F696005E14F7 /* bubble_button.psd in Resources */ = {isa = PBXBuildFile; fileRef = A96FD8EE1985F696005E14F7 /* bubble_button.psd */; };
 		A96FD8F91985F696005E14F7 /* bubble_icon.psd in Resources */ = {isa = PBXBuildFile; fileRef = A96FD8EF1985F696005E14F7 /* bubble_icon.psd */; };
 		A96FD8FA1985F696005E14F7 /* bubble_icon_title.psd in Resources */ = {isa = PBXBuildFile; fileRef = A96FD8F01985F696005E14F7 /* bubble_icon_title.psd */; };
@@ -295,6 +299,10 @@
 		A93554F61985B71A00E77285 /* SKTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
 		A93554FF1985B7FE00E77285 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		A956913A18984320004FBD99 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		A95A429F199B31E6003ECBA6 /* Powerup50.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Powerup50.wav; path = Bubble/Powerup50.wav; sourceTree = "<group>"; };
+		A95A42A0199B31E6003ECBA6 /* Powerup21.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Powerup21.wav; path = Bubble/Powerup21.wav; sourceTree = "<group>"; };
+		A95A42A1199B31E6003ECBA6 /* Laser_Shoot2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Laser_Shoot2.wav; path = Bubble/Laser_Shoot2.wav; sourceTree = "<group>"; };
+		A95A42A5199B3222003ECBA6 /* Explosion18.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Explosion18.wav; path = Bubble/Explosion18.wav; sourceTree = "<group>"; };
 		A96FD8EE1985F696005E14F7 /* bubble_button.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = bubble_button.psd; sourceTree = "<group>"; };
 		A96FD8EF1985F696005E14F7 /* bubble_icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = bubble_icon.psd; sourceTree = "<group>"; };
 		A96FD8F01985F696005E14F7 /* bubble_icon_title.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = bubble_icon_title.psd; sourceTree = "<group>"; };
@@ -423,6 +431,10 @@
 				A9D6377119906D140037E660 /* level27.tmx */,
 				A9D6377219906D140037E660 /* level22.tmx */,
 				A9D6377319906D140037E660 /* level17.tmx */,
+				A95A429F199B31E6003ECBA6 /* Powerup50.wav */,
+				A95A42A5199B3222003ECBA6 /* Explosion18.wav */,
+				A95A42A0199B31E6003ECBA6 /* Powerup21.wav */,
+				A95A42A1199B31E6003ECBA6 /* Laser_Shoot2.wav */,
 				A980008B19860E9C00B21DD0 /* Icon.jpg */,
 				A9BC27B519882F1D0030CCF0 /* icon.png */,
 				1F60B15118974B9A00232A84 /* Bubble */,
@@ -822,6 +834,7 @@
 				A96FD8FA1985F696005E14F7 /* bubble_icon_title.psd in Resources */,
 				A81680FA18DFD7F600504025 /* resume_button.png in Resources */,
 				A9BC27AE198809760030CCF0 /* level7.tmx in Resources */,
+				A95A42A6199B3222003ECBA6 /* Explosion18.wav in Resources */,
 				A9D21C0919874951006B9463 /* replay.png in Resources */,
 				A816811218E1161200504025 /* mode_pick_background.png in Resources */,
 				A81680FD18DFD7F600504025 /* twitter_logo.png in Resources */,
@@ -833,7 +846,9 @@
 				A980008919860B6500B21DD0 /* hurt.wav in Resources */,
 				A85CD01718DCEFD900FECC1C /* Hit_Hurt4.wav in Resources */,
 				A920EE2D199AE01F00DA83F3 /* level88.tmx in Resources */,
+				A95A42A2199B31E6003ECBA6 /* Powerup50.wav in Resources */,
 				A920EE3D199AE01F00DA83F3 /* level8.tmx in Resources */,
+				A95A42A3199B31E6003ECBA6 /* Powerup21.wav in Resources */,
 				A81680F818DFD7F600504025 /* pause_button.png in Resources */,
 				A9BC27B619882F1D0030CCF0 /* icon.png in Resources */,
 				A81680EA18DFD7F600504025 /* 1p_button.png in Resources */,
@@ -852,6 +867,7 @@
 				C20C0E591985FF1A0058133B /* reversePolarity Full.png in Resources */,
 				A81680F618DFD7F600504025 /* game_center_logo.png in Resources */,
 				A85CD01918DCEFD900FECC1C /* singleplayer.mp3 in Resources */,
+				A95A42A4199B31E6003ECBA6 /* Laser_Shoot2.wav in Resources */,
 				C2725105198F2E4A00AB3EC2 /* level32.tmx in Resources */,
 				A85CD01818DCEFD900FECC1C /* powerup.wav in Resources */,
 				A920EE2A199AE01F00DA83F3 /* level99.tmx in Resources */,

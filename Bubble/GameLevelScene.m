@@ -222,7 +222,7 @@
 }
 
 -(void)checkForWin {
-  if (self.player.position.x > 7780.0) {
+  if (self.player.position.x > 7680.0) {
     [self gameOver:1];
   }
 }
@@ -236,9 +236,11 @@
   if (won) {
     gameText = @"You Won!";
   } else {
+      [self runAction:[SKAction playSoundFileNamed:@"Explosion18.wav" waitForCompletion:NO]];
       SKEmitterNode *emitter = [SKEmitterNode emitterNamed:@"Explosion"];
       [emitter setPosition:self.view.center];
       emitter.particleAlpha = 1;
+      [emitter setPosition:CGPointMake(emitter.position.x,self.player.position.y)];
       [emitter setScale:2.3f];
       [self addChild:emitter];
       [emitter runAction:[SKAction sequence:@[[SKAction fadeAlphaTo:1 duration:999.3], [SKAction removeFromParent]]]];
@@ -296,7 +298,7 @@
     }
     //self.player.gravity=(!self.player.gravity);
     //self.player.turbo=!self.player.turbo;
-
+    [self runAction:[SKAction playSoundFileNamed:@"Laser_Shoot2.wav" waitForCompletion:NO]];
   for (UITouch *touch in touches) {
     CGPoint touchLocation = [touch locationInNode:self];
       if(false){
