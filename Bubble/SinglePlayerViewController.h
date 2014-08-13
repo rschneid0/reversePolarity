@@ -13,12 +13,13 @@
 #import "GameOverViewController.h"
 #import "GameModeViewController.h"
 #import "GameCenterController.h"
-
+#import <SpriteKit/SpriteKit.h>
 
 @interface SinglePlayerViewController : UIViewController <viewControllerDelegate> {
     UIButton *pauseButton;
     UILabel *score;
     AVAudioPlayer*player;
+    SKView* skView;
 }
 
 - (IBAction)pause;
@@ -28,6 +29,7 @@
 @property id<viewControllerDelegate> splash;
 @property (nonatomic, strong) UIView *whiteScreen;
 @property NSString* level;
+
 
 @end
 

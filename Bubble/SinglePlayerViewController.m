@@ -44,7 +44,7 @@
         }
     }
     [super viewDidLoad];
-    SKView * skView = [[SKView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    skView = [[SKView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.view = skView;
     
 #ifndef FPS
@@ -57,6 +57,8 @@
     
     [self setUpUI];
     scene = [[GameLevelScene alloc] initWithSize:CGSizeMake(self.view.frame.size.height, self.view.frame.size.width) andLevel:self.level];
+    scene.delegate=self;
+
     //scene = [GameLevelScene sceneWithSize:CGSizeMake(self.view.frame.size.height, self.view.frame.size.width)];
     scene.scaleMode = SKSceneScaleModeAspectFit;
     //scene.delegate = self;
@@ -86,6 +88,14 @@
     self.whiteScreen.layer.backgroundColor = [[UIColor whiteColor] CGColor];
     [self.view addSubview:self.whiteScreen];
 
+}
+
+-(void)startNormal{
+    [scene removeFromParent];
+    scene = [[GameLevelScene alloc] initWithSize:CGSizeMake(self.view.frame.size.height, self.view.frame.size.width) andLevel:self.level];
+    scene.delegate=self;
+    scene.scaleMode = SKSceneScaleModeAspectFit;
+    [skView presentScene:scene];
 }
 
 -(void)explosion {

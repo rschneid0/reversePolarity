@@ -30,7 +30,7 @@
     self = [super initWithSize:size];
     
     if (self) {
-        NSLog(@"LLLEVELLL: %@", level);
+        //NSLog(@"LLLEVELLL: %@", level);
         self.level=level;
         self.backgroundColor = [SKColor colorWithRed:.4 green:.4 blue:.4 alpha:1.0];
         
@@ -211,7 +211,7 @@
           SKEmitterNode *emitter = [SKEmitterNode emitterNamed:@"Explosion"];
           emitter.position = player.position;
           emitter.particleAlpha = 0.5;
-          [self addChild:emitter];
+          ///[self addChild:emitter];
           [emitter runAction:[SKAction sequence:@[[SKAction fadeAlphaTo:1 duration:999.3], [SKAction removeFromParent]]]];
           [player removeFromParent];
         [self gameOver:0];
@@ -274,7 +274,8 @@
 //3
 - (void)replayGame
 {
-  [self.view presentScene:[[GameLevelScene alloc] initWithSize:self.size andLevel:self.level]];
+    [self.delegate startNormal];
+    NSLog(@"%@", self.delegate);
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
@@ -285,7 +286,7 @@
     
     //if fire button touched, bring the rain
     if ([node.name isEqualToString:@"fireButtonNode"]) {
-        NSLog(@"Ayooooô");
+        //NSLog(@"Ayooooô");
         [self replayGame];
     }
     
@@ -303,12 +304,12 @@
     CGPoint touchLocation = [touch locationInNode:self];
       if(false){
       //if (touchLocation.x > self.size.width / 2.0) {
-        NSLog(@"Touch left of screen");
+        //NSLog(@"Touch left of screen");
 
       self.player.gravity=(!self.player.gravity);
       //NSLog(@"Touch Left of screen! - Change Gravity!");
     } else {
-        NSLog(@"Touch right of screen");
+        //NSLog(@"Touch right of screen");
             //self.player.gravity=(!self.player.gravity);
 
       //NSLog(@"Touch Rightof screen. - Turbo!");
