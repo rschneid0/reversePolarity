@@ -108,6 +108,21 @@
 		A95A42A3199B31E6003ECBA6 /* Powerup21.wav in Resources */ = {isa = PBXBuildFile; fileRef = A95A42A0199B31E6003ECBA6 /* Powerup21.wav */; };
 		A95A42A4199B31E6003ECBA6 /* Laser_Shoot2.wav in Resources */ = {isa = PBXBuildFile; fileRef = A95A42A1199B31E6003ECBA6 /* Laser_Shoot2.wav */; };
 		A95A42A6199B3222003ECBA6 /* Explosion18.wav in Resources */ = {isa = PBXBuildFile; fileRef = A95A42A5199B3222003ECBA6 /* Explosion18.wav */; };
+		A95A42B5199B3509003ECBA6 /* level99.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A95A42A7199B3509003ECBA6 /* level99.tmx */; };
+		A95A42B6199B3509003ECBA6 /* level98.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A95A42A8199B3509003ECBA6 /* level98.tmx */; };
+		A95A42B7199B3509003ECBA6 /* level89.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A95A42A9199B3509003ECBA6 /* level89.tmx */; };
+		A95A42B8199B3509003ECBA6 /* level88.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A95A42AA199B3509003ECBA6 /* level88.tmx */; };
+		A95A42B9199B3509003ECBA6 /* level79.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A95A42AB199B3509003ECBA6 /* level79.tmx */; };
+		A95A42BA199B3509003ECBA6 /* level78.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A95A42AC199B3509003ECBA6 /* level78.tmx */; };
+		A95A42BB199B3509003ECBA6 /* level69.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A95A42AD199B3509003ECBA6 /* level69.tmx */; };
+		A95A42BC199B3509003ECBA6 /* level68.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A95A42AE199B3509003ECBA6 /* level68.tmx */; };
+		A95A42BD199B3509003ECBA6 /* level59.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A95A42AF199B3509003ECBA6 /* level59.tmx */; };
+		A95A42BE199B3509003ECBA6 /* level58.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A95A42B0199B3509003ECBA6 /* level58.tmx */; };
+		A95A42BF199B3509003ECBA6 /* level49.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A95A42B1199B3509003ECBA6 /* level49.tmx */; };
+		A95A42C0199B3509003ECBA6 /* level48.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A95A42B2199B3509003ECBA6 /* level48.tmx */; };
+		A95A42C1199B3509003ECBA6 /* level47.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A95A42B3199B3509003ECBA6 /* level47.tmx */; };
+		A95A42C2199B3509003ECBA6 /* level37.tmx in Resources */ = {isa = PBXBuildFile; fileRef = A95A42B4199B3509003ECBA6 /* level37.tmx */; };
+		A95A42C4199B3706003ECBA6 /* back arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A95A42C3199B3706003ECBA6 /* back arrow.png */; };
 		A96FD8F81985F696005E14F7 /* bubble_button.psd in Resources */ = {isa = PBXBuildFile; fileRef = A96FD8EE1985F696005E14F7 /* bubble_button.psd */; };
 		A96FD8F91985F696005E14F7 /* bubble_icon.psd in Resources */ = {isa = PBXBuildFile; fileRef = A96FD8EF1985F696005E14F7 /* bubble_icon.psd */; };
 		A96FD8FA1985F696005E14F7 /* bubble_icon_title.psd in Resources */ = {isa = PBXBuildFile; fileRef = A96FD8F01985F696005E14F7 /* bubble_icon_title.psd */; };
@@ -303,6 +318,21 @@
 		A95A42A0199B31E6003ECBA6 /* Powerup21.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Powerup21.wav; path = Bubble/Powerup21.wav; sourceTree = "<group>"; };
 		A95A42A1199B31E6003ECBA6 /* Laser_Shoot2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Laser_Shoot2.wav; path = Bubble/Laser_Shoot2.wav; sourceTree = "<group>"; };
 		A95A42A5199B3222003ECBA6 /* Explosion18.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Explosion18.wav; path = Bubble/Explosion18.wav; sourceTree = "<group>"; };
+		A95A42A7199B3509003ECBA6 /* level99.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level99.tmx; sourceTree = "<group>"; };
+		A95A42A8199B3509003ECBA6 /* level98.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level98.tmx; sourceTree = "<group>"; };
+		A95A42A9199B3509003ECBA6 /* level89.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level89.tmx; sourceTree = "<group>"; };
+		A95A42AA199B3509003ECBA6 /* level88.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level88.tmx; sourceTree = "<group>"; };
+		A95A42AB199B3509003ECBA6 /* level79.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level79.tmx; sourceTree = "<group>"; };
+		A95A42AC199B3509003ECBA6 /* level78.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level78.tmx; sourceTree = "<group>"; };
+		A95A42AD199B3509003ECBA6 /* level69.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level69.tmx; sourceTree = "<group>"; };
+		A95A42AE199B3509003ECBA6 /* level68.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level68.tmx; sourceTree = "<group>"; };
+		A95A42AF199B3509003ECBA6 /* level59.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level59.tmx; sourceTree = "<group>"; };
+		A95A42B0199B3509003ECBA6 /* level58.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level58.tmx; sourceTree = "<group>"; };
+		A95A42B1199B3509003ECBA6 /* level49.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level49.tmx; sourceTree = "<group>"; };
+		A95A42B2199B3509003ECBA6 /* level48.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level48.tmx; sourceTree = "<group>"; };
+		A95A42B3199B3509003ECBA6 /* level47.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level47.tmx; sourceTree = "<group>"; };
+		A95A42B4199B3509003ECBA6 /* level37.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = level37.tmx; sourceTree = "<group>"; };
+		A95A42C3199B3706003ECBA6 /* back arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back arrow.png"; sourceTree = "<group>"; };
 		A96FD8EE1985F696005E14F7 /* bubble_button.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = bubble_button.psd; sourceTree = "<group>"; };
 		A96FD8EF1985F696005E14F7 /* bubble_icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = bubble_icon.psd; sourceTree = "<group>"; };
 		A96FD8F01985F696005E14F7 /* bubble_icon_title.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = bubble_icon_title.psd; sourceTree = "<group>"; };
@@ -510,6 +540,20 @@
 				A93554D91985B6A700E77285 /* Player.m */,
 				A93554DA1985B6A700E77285 /* GameLevelScene.h */,
 				A93554DB1985B6A700E77285 /* GameLevelScene.m */,
+				A95A42A7199B3509003ECBA6 /* level99.tmx */,
+				A95A42A8199B3509003ECBA6 /* level98.tmx */,
+				A95A42A9199B3509003ECBA6 /* level89.tmx */,
+				A95A42AA199B3509003ECBA6 /* level88.tmx */,
+				A95A42AB199B3509003ECBA6 /* level79.tmx */,
+				A95A42AC199B3509003ECBA6 /* level78.tmx */,
+				A95A42AD199B3509003ECBA6 /* level69.tmx */,
+				A95A42AE199B3509003ECBA6 /* level68.tmx */,
+				A95A42AF199B3509003ECBA6 /* level59.tmx */,
+				A95A42B0199B3509003ECBA6 /* level58.tmx */,
+				A95A42B1199B3509003ECBA6 /* level49.tmx */,
+				A95A42B2199B3509003ECBA6 /* level48.tmx */,
+				A95A42B3199B3509003ECBA6 /* level47.tmx */,
+				A95A42B4199B3509003ECBA6 /* level37.tmx */,
 				A9D21C0719874951006B9463 /* replay.png */,
 				A9D21C0819874951006B9463 /* replay@2x.png */,
 				A9F3FC1519934298002F4047 /* Fire.sks */,
@@ -543,6 +587,7 @@
 				1F60B16418974B9A00232A84 /* SinglePlayerViewController.m */,
 				A9BC27B0198809820030CCF0 /* LevelSelectViewController.h */,
 				A9BC27B1198809820030CCF0 /* LevelSelectViewController.m */,
+				A95A42C3199B3706003ECBA6 /* back arrow.png */,
 				A97A9ED218988D3F0017183F /* SplashViewController.h */,
 				A97A9ED318988D3F0017183F /* SplashViewController.m */,
 				A81680FE18DFDFEB00504025 /* StalkerBubble.h */,
@@ -769,6 +814,7 @@
 				A9D6377419906D140037E660 /* level27.tmx in Resources */,
 				A91E0DCF1989E82A009B05F9 /* level38.tmx in Resources */,
 				A9BA252918E26329005EC455 /* timeslow.wav in Resources */,
+				A95A42B9199B3509003ECBA6 /* level79.tmx in Resources */,
 				A9D6377519906D140037E660 /* level22.tmx in Resources */,
 				A91E0DD31989E82A009B05F9 /* level18.tmx in Resources */,
 				A91E0DDA198B4245009B05F9 /* level20.tmx in Resources */,
@@ -792,8 +838,12 @@
 				A81680F518DFD7F600504025 /* clock_icon.png in Resources */,
 				A920EE39199AE01F00DA83F3 /* level28.tmx in Resources */,
 				A9F3FC0F19933861002F4047 /* Default.png in Resources */,
+				A95A42B7199B3509003ECBA6 /* level89.tmx in Resources */,
 				A9F3FC1B19934298002F4047 /* DamageSmoke.sks in Resources */,
 				A96FD8FD1985F696005E14F7 /* spaceShip(down).psd in Resources */,
+				A95A42C2199B3509003ECBA6 /* level37.tmx in Resources */,
+				A95A42BF199B3509003ECBA6 /* level49.tmx in Resources */,
+				A95A42BA199B3509003ECBA6 /* level78.tmx in Resources */,
 				A920EE35199AE01F00DA83F3 /* level48.tmx in Resources */,
 				A81680F418DFD7F600504025 /* bubble_ios_icon_80.png in Resources */,
 				A920EE31199AE01F00DA83F3 /* level68.tmx in Resources */,
@@ -803,6 +853,7 @@
 				A81680F718DFD7F600504025 /* options_button.png in Resources */,
 				A81680F918DFD7F600504025 /* quit_button.png in Resources */,
 				1F60B16C18974B9A00232A84 /* Images.xcassets in Resources */,
+				A95A42BB199B3509003ECBA6 /* level69.tmx in Resources */,
 				A91E0DD51989E82A009B05F9 /* level9.tmx in Resources */,
 				A816810718DFEF7900504025 /* game_over_background.png in Resources */,
 				A980008719860B6500B21DD0 /* bubble_button.psd in Resources */,
@@ -810,6 +861,7 @@
 				1F60B15618974B9A00232A84 /* InfoPlist.strings in Resources */,
 				A81680EB18DFD7F600504025 /* 2p_button.png in Resources */,
 				A980008419860B6500B21DD0 /* spaceShip(down).png in Resources */,
+				A95A42BE199B3509003ECBA6 /* level58.tmx in Resources */,
 				A81680EF18DFD7F600504025 /* bubble_icon_launch_640_1136.png in Resources */,
 				A81680F318DFD7F600504025 /* bubble_ios_icon_58.png in Resources */,
 				A920EE33199AE01F00DA83F3 /* level58.tmx in Resources */,
@@ -820,12 +872,14 @@
 				A920EE2E199AE01F00DA83F3 /* level79.tmx in Resources */,
 				A96FD8FB1985F696005E14F7 /* bubble_ios_icon.psd in Resources */,
 				A93554DF1985B6A700E77285 /* level2.tmx in Resources */,
+				A95A42B6199B3509003ECBA6 /* level98.tmx in Resources */,
 				A980008819860B6500B21DD0 /* Icon.jpg in Resources */,
 				A9BC27AF198809760030CCF0 /* level8.tmx in Resources */,
 				A920EE32199AE01F00DA83F3 /* level59.tmx in Resources */,
 				A81680F218DFD7F600504025 /* bubble_ios_icon_120.png in Resources */,
 				A96FD8FC1985F696005E14F7 /* spaceShip(down).png in Resources */,
 				A96FD9011985F696005E14F7 /* spaceShip.psd in Resources */,
+				A95A42C4199B3706003ECBA6 /* back arrow.png in Resources */,
 				A9F3FC1C19934298002F4047 /* Explosion.sks in Resources */,
 				A9F3FC1119934087002F4047 /* spark.png in Resources */,
 				A920EE34199AE01F00DA83F3 /* level49.tmx in Resources */,
@@ -840,6 +894,7 @@
 				A81680FD18DFD7F600504025 /* twitter_logo.png in Resources */,
 				A91E0DD21989E82A009B05F9 /* level19.tmx in Resources */,
 				A920EE2B199AE01F00DA83F3 /* level98.tmx in Resources */,
+				A95A42C0199B3509003ECBA6 /* level48.tmx in Resources */,
 				A920EE2C199AE01F00DA83F3 /* level89.tmx in Resources */,
 				C20C0E5B198601F00058133B /* Base.tmx in Resources */,
 				A980008619860B6500B21DD0 /* spaceShip(flat).png in Resources */,
@@ -854,13 +909,17 @@
 				A81680EA18DFD7F600504025 /* 1p_button.png in Resources */,
 				A980008C19860E9C00B21DD0 /* Icon.jpg in Resources */,
 				A85CD01618DCEFD900FECC1C /* dilate1.wav in Resources */,
+				A95A42BD199B3509003ECBA6 /* level59.tmx in Resources */,
+				A95A42BC199B3509003ECBA6 /* level68.tmx in Resources */,
 				A9F3FC1919934298002F4047 /* Fire.sks in Resources */,
 				A81680FB18DFD7F600504025 /* shield_icon.png in Resources */,
 				A91E0DD01989E82A009B05F9 /* level29.tmx in Resources */,
 				A9D6377619906D140037E660 /* level17.tmx in Resources */,
+				A95A42C1199B3509003ECBA6 /* level47.tmx in Resources */,
 				A9BF9F6A1985DC1300B810D8 /* tileSet@2x.png in Resources */,
 				A9BF9F691985DC1300B810D8 /* tileSet.png in Resources */,
 				A816811318E1161200504025 /* normal_mode_button.png in Resources */,
+				A95A42B8199B3509003ECBA6 /* level88.tmx in Resources */,
 				A96FD8F81985F696005E14F7 /* bubble_button.psd in Resources */,
 				A9F3FC1A19934298002F4047 /* CloudParticleEmitter.sks in Resources */,
 				A91E0DD11989E82A009B05F9 /* level28.tmx in Resources */,
@@ -871,6 +930,7 @@
 				C2725105198F2E4A00AB3EC2 /* level32.tmx in Resources */,
 				A85CD01818DCEFD900FECC1C /* powerup.wav in Resources */,
 				A920EE2A199AE01F00DA83F3 /* level99.tmx in Resources */,
+				A95A42B5199B3509003ECBA6 /* level99.tmx in Resources */,
 				A980008519860B6500B21DD0 /* spaceShip(up).png in Resources */,
 				A96FD8FE1985F696005E14F7 /* spaceShip(flat).png in Resources */,
 				A816811118E1161200504025 /* hard_mode_button.png in Resources */,

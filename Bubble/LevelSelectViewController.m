@@ -14,17 +14,24 @@
 
 @implementation LevelSelectViewController
 
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        [[UIApplication sharedApplication] setStatusBarHidden:YES
+                                                withAnimation:UIStatusBarAnimationFade];
         mainScrollView = [[ UIScrollView alloc] initWithFrame:self.view.frame];
         
         mainScrollView.contentSize=CGSizeMake(610, 1000);
         
         UIButton* backButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
         backButton.frame=CGRectMake(10, 30, 60, 60);
-        [backButton setTitle:@"<" forState:UIControlStateNormal];
+        //[backButton setTitle:@"<" forState:UIControlStateNormal];
+        [backButton setImage:[UIImage imageNamed:@"back arrow.png"] forState:UIControlStateNormal];
         backButton.titleLabel.textColor=[UIColor redColor];
         [backButton addTarget:self action:@selector(exitView) forControlEvents:UIControlEventTouchUpInside];
         //backButton.backgroundColor= [UIColor whiteColor];
