@@ -26,6 +26,16 @@
                                                 withAnimation:UIStatusBarAnimationFade];
         mainScrollView = [[ UIScrollView alloc] initWithFrame:self.view.frame];
         
+        
+        NSUserDefaults * standardUserDefaults = [NSUserDefaults standardUserDefaults];
+        //[standardUserDefaults setInteger:0 forKey:@"world1progress"];
+        //[standardUserDefaults setInteger:0 forKey:@"world7progress"];
+        //[standardUserDefaults setInteger:0 forKey:@"world8progress"];
+        //[standardUserDefaults setInteger:0 forKey:@"world9progress"];
+
+        
+
+        
         mainScrollView.contentSize=CGSizeMake(610, 1000);
         
         UIButton* backButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
@@ -55,7 +65,25 @@
                 [button setTintColor:[UIColor whiteColor]];
                 [[button layer] setBorderColor:[UIColor whiteColor].CGColor];
                 [[button layer] setBorderWidth:1.0f];
-                [mainScrollView addSubview:button];
+                if(i==1 || i==7 || i==8 || i==9){
+                    if(i==1 && j==0)
+                        [mainScrollView addSubview:button];
+                    if(i==7 && j<=[standardUserDefaults integerForKey:@"world7progress"])
+                    {
+                        [mainScrollView addSubview:button];
+
+                    }
+                    if(i==8 && j<=[standardUserDefaults integerForKey:@"world8progress"])
+                    {
+                        [mainScrollView addSubview:button];
+
+                    }
+                    if(i==9 && j<=[standardUserDefaults integerForKey:@"world9progress"])
+                    {
+                        [mainScrollView addSubview:button];
+
+                    }
+                    }
                 [button addTarget:self action:@selector(levelSelect:) forControlEvents:UIControlEventTouchUpInside];
                 count++;
             }

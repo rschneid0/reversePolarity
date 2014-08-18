@@ -235,6 +235,20 @@
   
   if (won) {
     gameText = @"You Won!";
+      NSUserDefaults * standardUserDefaults = [NSUserDefaults standardUserDefaults];
+      
+      
+      [standardUserDefaults setInteger:self.level.intValue/10 forKey:[NSString stringWithFormat:@"world%ldprogress", (self.level.integerValue%10)]];
+      NSLog(@"Just completed World: %ld", (self.level.integerValue%10));
+      NSLog(@"Just completed Planet: %d", (self.level.intValue/10));
+      int world =self.level.integerValue%10;
+      int planet=self.level.intValue/10;
+      NSLog(@"Getting world status... %@", [standardUserDefaults objectForKey:@"world8progress"]);
+      if([standardUserDefaults integerForKey:[NSString stringWithFormat:@"world%dprogress", (world)]]<planet+1){
+      [standardUserDefaults setInteger:planet+1 forKey:[NSString stringWithFormat:@"world%dprogress", (world)]];
+      }
+      
+      
   } else {
       [self runAction:[SKAction playSoundFileNamed:@"Explosion18.wav" waitForCompletion:NO]];
       SKEmitterNode *emitter = [SKEmitterNode emitterNamed:@"Explosion"];

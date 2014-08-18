@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="512" height="20" tilewidth="16" tileheight="16">
  <tileset firstgid="1" name="reversePolarity Full" tilewidth="16" tileheight="16">
-     <image source="reversePolarity Full.png" width="960" height="320"/>
+  <image source="../../Coding Stuff/reversePolarity/Bubble/reversePolarity Full.png" width="960" height="320"/>
  </tileset>
  <layer name="background" width="512" height="20">
   <data encoding="base64" compression="zlib">
@@ -15,7 +15,7 @@
  </layer>
  <layer name="hazards" width="512" height="20">
   <data encoding="base64" compression="zlib">
-   eJzt3UlOw0AQRmGHGzEehhVbQIx3AsR4K8ZTUOwii0Sx026/st8n1Tb+u92m5CbqNI0kSZIkSdL8HC2ak9uot6ifqLHztJHyUbJQcqxzumias6jzxdhJVts0Y62xDHGdGtm7fHSN5bDtNcBLtrhMY82UNYvD6B83Ua9R38BeQspHyULJsc5dPKz3UQ/gh3bTjLXGMsR1MtyHOZn6bZj6+KbmIPrHddRL1Bewl5DyUbJQckiS8tqP/nEV9Rz1CewlpHyULJQcQ8jwf4N12vlLjyf7/Kg8l4L62ov+cRn1FPUB7CWkfJQslBxD6LNfTeqJ7fyl99/dz5dUym70j4uox6h3YC8h5aNkoeSgsCeqFJeQJKkr0j6EtGzVknSpcngvlIF97n+r9iGcr+6cKqkfnx0Nyf32buY8X8c7YyeYlhkuIUkzkPU9OWtuMsJUjpGh5DUJcyhRzquj5CDkoc3Fn6zf/V/OTcgjleIy1rYo59VRchDy0OaiL9reOi2PJI2Jcl4dJQchD20uavIdXbW51DRXlPPqKDkIeWhzUZPv6JKyyfrninJeHSUHIc/Q157SO3bNsWT9DUDVk/k2Zs6ufijn1VFyEPIMfe0pvWPXHEvG3wDc9GNrLQW/Q1+e8yBJkiRJkjL4BWeq+f8=
+   eJzt3VdOAzEUhWEnrIgqUVbCE6+AqBJlQ4CoEmVL1D1QTt6ikESZxOM59vyfdF/jY4+ZqzHRJAQAAAAAAID2WemErWPVg+pL1XSeQU75XLK45BhnuxPCjmq303SS0SbNmGoudYyTInuVj06xHWYdw3jLRtemueK/ZfWPI9W96tOwlzjlc8nikmOcC91YLlVXxjeYSTOmmksd4+RwHdqk9MtQ+vxKs6T+cai6U30Y9hKnfC5ZXHIAAPK1qP5xoLpVvRv2Eqd8LllcctQhh/8bjDOYP/Z8cl8fxMdWwLQW1D/2VTeqN8Ne4pTPJYtLjjpMc17t1BMH88c+f+c8H0As8+ofe6pr1athL3HK55LFJYcLeiJiYQsBAKpyOocA+o3akim26nc3hB/VryrMJRgwU9w2kAP63HCjziFYr+pYqnKsquevqdZVG/T/2vG3gzpx3l5Nm9drs9t0grLkuIVO1PNPVWeqc/o/gCFyfU7ONbczh6VsIkPMMR3WsOdRPf9J9ax6of+3jsv76lxyOORxW4ueXL/735/bIQ8QC9sYs3J5X51LDoc8bmsxLbezdbc8ANAkl/fVueRwyOO2FinxjI7U2GpoK5f31bnkcMjjthYp8YwOIDe53q5c3lfnksMhT91jl/SMnXIuuf4GINLhMiInLu+rc8nhkKfusUt6xk45lxx/A3DSj021FUr8Dn3TWAcAAAAAAJCDP3c9AsE=
   </data>
  </layer>
 </map>
